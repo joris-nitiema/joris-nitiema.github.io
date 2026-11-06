@@ -14,8 +14,6 @@ website:
         text: Projets
       - href: cv.qmd
         text: CV
-      - href: about.qmd
-        text: À propos
     right:
       - text: "EN"
         href: "https://joris-nitiema.github.io/"

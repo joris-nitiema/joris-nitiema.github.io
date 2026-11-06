@@ -17,4 +17,4 @@ Each page has the same file name in `en/` and `fr/`, so the EN | FR button opens
 - [ ] CV PDFs (no phone number) → `assets/cv/cv-en.pdf`, `assets/cv/cv-fr.pdf`, then uncomment the links in both `cv.qmd`
 - [ ] Award and certificate files (personal data hidden) → `assets/awards/`, `assets/certificates/`
 - [ ] Write the 3 project pages, then remove `draft: true`
-- [ ] Rewrite `about.qmd` in my own words
+- [ ] Check every text on the home page (`en/index.qmd`, `fr/index.qmd`)

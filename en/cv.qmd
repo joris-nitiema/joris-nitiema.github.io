@@ -1,22 +1,25 @@
 ---
-title: "CV"
+title: "CV and documents"
 ---
 
 <!-- When the PDFs are in assets/cv/, uncomment these lines:
-[CV in English (PDF)](/assets/cv/cv-en.pdf){.btn .btn-primary} [CV in French (PDF)](/assets/cv/cv-fr.pdf){.btn .btn-outline-primary}
+<a class="pf-btn pf-btn--solid" href="/assets/cv/cv-en.pdf">CV in English (PDF)</a> <a class="pf-btn pf-btn--line" href="/assets/cv/cv-fr.pdf">CV in French (PDF)</a>
 
-<iframe src="/assets/cv/cv-en.pdf" width="100%" height="900" style="border:1px solid #ddd"></iframe>
+<iframe src="/assets/cv/cv-en.pdf" width="100%" height="900" style="border:1px solid #dde3ea;border-radius:10px"></iframe>
 -->
 
-## Awards & certificates
+## Certificates
 
-::: {.doc-list}
-<!-- Add one line per document, for example:
-- Award of Excellence, ISSEA, 2026 ([document in French](/assets/awards/issea-excellence-2026.pdf))
-- IBM – Machine Learning with Python, 2025 ([verify](https://...))
+```{=html}
+<ul class="pf-docs">
+  <li><b>Machine Learning with Python</b> <span>IBM, Cognitive Class, 2025</span></li>
+  <li><b>Python for Data Science</b> <span>IBM, Cognitive Class, 2025</span></li>
+  <li><b>R for Data Science</b> <span>IBM, Cognitive Class, 2025</span></li>
+  <li><b>SQL and Relational Databases</b> <span>IBM, Cognitive Class, 2026</span></li>
+  <li><b>R Programming for Statistics and Data Science</b> <span>Packt, via Coursera, 2025</span></li>
+</ul>
+```
+
+<!-- Award documents: add one <li> per scan in assets/awards/, e.g.
+<li><b>Award of Excellence, ISSEA</b> <span>2026</span> <a href="/assets/awards/issea-excellence-2026.pdf">View document (in French)</a></li>
 -->
-- Award of Excellence, ISSEA (2026)
-- Ranked 1st of 19 in the final year at ISSEA (2026)
-- IBM (Cognitive Class): Machine Learning with Python · Python for Data Science · R for Data Science · SQL and Relational Databases
-- Coursera: R Programming for Statistics and Data Science (Packt)
-:::
