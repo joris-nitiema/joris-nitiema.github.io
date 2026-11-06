@@ -8,47 +8,58 @@ page-layout: custom
   <div class="pf-wrap pf-hero__grid">
     <div>
       <h1>Joris<br>NITIEMA</h1>
-      <p class="pf-hero__role">Statistician, now in an M1 in Econometrics-Statistics at the Aix-Marseille School of Economics</p>
+      <p class="pf-hero__role">Statistician, Master's student in Econometrics-Statistics at Aix-Marseille University</p>
       <p class="pf-hero__pitch">I turn survey and administrative data into indicators, models and dashboards that people can use to decide.</p>
       <p class="pf-hero__seek">I am looking for a 3 to 4 month internship, May to August 2027, in data science, econometrics or applied statistics.</p>
-      <a class="pf-btn pf-btn--solid" href="projects.html">See my projects</a>
+      <a class="pf-btn pf-btn--solid" href="#experience">See my experience</a>
       <a class="pf-btn pf-btn--line" href="cv.html">Download my CV</a>
     </div>
-    <div>
-      <!-- Replace the monogram with your photo: <img class="pf-portrait" src="/assets/img/photo.jpg" alt="Joris NITIEMA"> -->
-      <div class="pf-monogram" aria-hidden="true">JN</div>
-      <figure class="pf-chart">
-        <figcaption><strong>My grades at ISSEA</strong>, out of 20: yearly averages, then the thesis</figcaption>
-        <svg viewBox="0 0 360 165" role="img" aria-label="Yearly averages 15.30, 15.51, 16.38, then a thesis grade of 17.20 out of 20">
-          <g class="grid">
-            <line x1="40" x2="350" y1="110" y2="110"/><text x="12" y="114">15</text>
-            <line x1="40" x2="350" y1="80" y2="80"/><text x="12" y="84">16</text>
-            <line x1="40" x2="350" y1="50" y2="50"/><text x="12" y="54">17</text>
-            <line x1="40" x2="350" y1="20" y2="20"/><text x="12" y="24">18</text>
-          </g>
-          <polyline class="line" points="70,101 160,94.7 250,68.6 330,44"/>
-          <circle class="dot" cx="70" cy="101" r="5"/>
-          <circle class="dot" cx="160" cy="94.7" r="5"/>
-          <circle class="dot" cx="250" cy="68.6" r="5"/>
-          <circle class="dot dot--last" cx="330" cy="44" r="6"/>
-          <text class="val" x="70" y="88" text-anchor="middle">15.30</text>
-          <text class="val" x="160" y="82" text-anchor="middle">15.51</text>
-          <text class="val" x="250" y="56" text-anchor="middle">16.38</text>
-          <text class="val val--last" x="330" y="30" text-anchor="middle">17.20</text>
-          <text class="xlab" x="70" y="150" text-anchor="middle">Year 1</text>
-          <text class="xlab" x="160" y="150" text-anchor="middle">Year 2</text>
-          <text class="xlab" x="250" y="150" text-anchor="middle">Year 3</text>
-          <text class="xlab" x="330" y="150" text-anchor="middle">Thesis</text>
-        </svg>
-      </figure>
-    </div>
+    <!-- Replace the monogram with your photo: <img class="pf-portrait" src="/assets/img/photo.jpg" alt="Joris NITIEMA"> -->
+    <div class="pf-monogram" aria-hidden="true">JN</div>
   </div>
 </header>
 
+<section class="pf-section" id="path">
+  <div class="pf-wrap">
+    <h2>My path</h2>
+    <p class="pf-story">I have always loved mathematics and computing. Three years ago, this led me to statistics at ISSEA in Yaoundé, the regional statistics school of the CEMAC countries, which I entered through a competitive exam. There, I learned the mathematics behind statistics, and how to apply it to real data with the right tools. To go further, I joined the Master's in Econometrics-Statistics at Aix-Marseille University. Now I want to use these skills again, as I did at the National Institute of Statistics and the Ministry of Finance of Cameroon, in a new team for an internship.</p>
+    <div class="pf-pillars">
+      <div class="pf-pillar"><h3>The mathematics</h3><p>Probability, statistical inference, linear algebra, analysis and optimisation.</p></div>
+      <div class="pf-pillar"><h3>Applied to real data</h3><p>Econometrics, multivariate data analysis, survey sampling, time series, machine learning.</p></div>
+      <div class="pf-pillar"><h3>With the right tools</h3><p>Excel, R, Python, Stata, SPSS, SQL and Power BI.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="pf-section" id="experience">
+  <div class="pf-wrap">
+    <h2>Experience</h2>
+    <p class="pf-lede">From collecting survey data in the field to building indicators for a ministry.</p>
+    <ul class="pf-timeline">
+      <li><div class="pf-when">Mar – Jun 2026</div><div>
+        <h3>End-of-studies internship</h3>
+        <div class="pf-where">National Institute of Statistics (INS), Yaoundé, Cameroon</div>
+        <p>Measured the multidimensional vulnerability of households hosting internally displaced people in West Cameroon, from the PESoP 2024 survey (2,686 households). Composite index by MCA, typology by HCA, drivers by a survey-weighted ordered logit. Thesis graded 17.20/20.</p></div></li>
+      <li><div class="pf-when">Jul – Sep 2025</div><div>
+        <h3>Internship, forecasting division</h3>
+        <div class="pf-where">Ministry of Finance (MINFI), Yaoundé, Cameroon</div>
+        <p>Analysed cocoa production and exports from 2015 to 2025: trend, seasonality and short-term forecasts. Built a dashboard of agricultural indicators that replaced calculations done by hand in Excel.</p></div></li>
+      <li><div class="pf-when">May 2025</div><div>
+        <h3>Survey supervisor</h3>
+        <div class="pf-where">ISSEA, Yaoundé, Cameroon</div>
+        <p>Supervised teams of interviewers: consistency checks, validation of incoming data and quality control of the collection.</p></div></li>
+      <li><div class="pf-when">May 2024</div><div>
+        <h3>Survey interviewer</h3>
+        <div class="pf-where">ISSEA, Yaoundé, Cameroon</div>
+        <p>Face-to-face interviews for a household survey on urban safety in Yaoundé.</p></div></li>
+    </ul>
+  </div>
+</section>
+
 <section class="pf-section" id="work">
   <div class="pf-wrap">
-    <h2>Selected work</h2>
-    <p class="pf-lede">Real data, real users: a bank, a national statistics institute, and the people of Yaoundé comparing prices.</p>
+    <h2>Projects</h2>
+    <p class="pf-lede">Applications built on real data, that you can open and use.</p>
     <div class="pf-work">
       <article class="pf-project pf-project--lead">
         <div>
@@ -60,46 +71,43 @@ page-layout: custom
         <div class="pf-figure"><b>255,000</b><span>real bank operations analysed</span></div>
       </article>
       <article class="pf-project">
-        <h3>Vulnerability of households hosting displaced people</h3>
-        <p>My bachelor's thesis at the National Institute of Statistics of Cameroon: a vulnerability index for 2,686 households in West Cameroon, a typology, and its main drivers. Graded 17.20/20.</p>
-        <p class="pf-tools">Survey data, MCA, HCA, survey-weighted ordered logit</p>
-      </article>
-      <article class="pf-project">
         <h3>EcoTrack Local</h3>
         <p>A web app to track and compare food prices by neighbourhood in Yaoundé, with an interactive map and automatic detection of unusual prices. Built in a team of three.</p>
         <p class="pf-tools">Python, Django</p>
         <div class="pf-links"><a href="https://nitiemajoris.pythonanywhere.com">Open the app</a></div>
       </article>
+      <article class="pf-project">
+        <h3>Vocab Combo Trainer</h3>
+        <p>A Shiny app I built to practise English–French vocabulary, with game modes, progress tracking and AI-assisted correction.</p>
+        <p class="pf-tools">R, Shiny</p>
+        <div class="pf-links"><a href="https://joris-nitiema.shinyapps.io/application/">Open the app</a></div>
+      </article>
     </div>
-    <p class="pf-other">Also: <a href="https://joris-nitiema.shinyapps.io/application/">Vocab Combo Trainer</a>, a Shiny app I built to practise English–French vocabulary.</p>
   </div>
 </section>
 
-<section class="pf-section" id="path">
+<section class="pf-section" id="education">
   <div class="pf-wrap">
-    <h2>Education and experience</h2>
-    <p class="pf-lede">Trained in official statistics, from collecting survey data in the field to modelling it.</p>
+    <h2>Education</h2>
     <ul class="pf-timeline">
       <li><div class="pf-when">2026 – today</div><div>
-        <h3>Master 1, Econometrics-Statistics <span class="pf-kind pf-kind--edu">Education</span></h3>
-        <div class="pf-where">Aix-Marseille School of Economics, Marseille</div>
+        <h3>Master 1, Econometrics-Statistics</h3>
+        <div class="pf-where">Aix-Marseille School of Economics (AMSE), Aix-Marseille University, France</div>
         <p>Programme taught entirely in English.</p></div></li>
-      <li><div class="pf-when">Mar – Jun 2026</div><div>
-        <h3>End-of-studies internship <span class="pf-kind pf-kind--job">Work</span></h3>
-        <div class="pf-where">National Institute of Statistics (INS), Yaoundé</div>
-        <p>Measured the multidimensional vulnerability of households hosting internally displaced people, from the PESoP 2024 survey.</p></div></li>
-      <li><div class="pf-when">Jul – Sep 2025</div><div>
-        <h3>Internship, forecasting division <span class="pf-kind pf-kind--job">Work</span></h3>
-        <div class="pf-where">Ministry of Finance (MINFI), Yaoundé</div>
-        <p>Analysed cocoa production and exports from 2015 to 2025: trend, seasonality and short-term forecasts. Built a dashboard that replaced indicators recalculated by hand in Excel.</p></div></li>
-      <li><div class="pf-when">2024 – 2025</div><div>
-        <h3>Survey interviewer, then supervisor <span class="pf-kind pf-kind--job">Work</span></h3>
-        <div class="pf-where">ISSEA, Yaoundé</div>
-        <p>Face-to-face household interviews on urban safety, then supervision of interviewers: consistency checks and data validation.</p></div></li>
       <li><div class="pf-when">2023 – 2026</div><div>
-        <h3>Analyst Statistician diploma, data science track <span class="pf-kind pf-kind--edu">Education</span></h3>
-        <div class="pf-where">ISSEA, Yaoundé</div>
-        <p>Admitted through the competitive entrance exam shared by ENSAE Dakar, ENSEA Abidjan and ISSEA. Ranked 1st of 19 in the final year.</p></div></li>
+        <h3>Analyst Statistician diploma, data science track</h3>
+        <div class="pf-where">ISSEA, Yaoundé, Cameroon</div>
+        <p>Admitted through the competitive entrance exam shared by ENSAE Dakar, ENSEA Abidjan and ISSEA.</p>
+        <ul class="pf-grades">
+          <li><span>Year 1: <b>15.30</b>/20, 3rd of 28</span></li>
+          <li><span>Year 2: <b>15.51</b>/20, 3rd of 28</span></li>
+          <li><span>Year 3: <b>16.38</b>/20, 1st of 19</span></li>
+          <li><span>Thesis: <b>17.20</b>/20</span></li>
+        </ul></div></li>
+      <li><div class="pf-when">2020 – 2023</div><div>
+        <h3>Baccalauréat, mathematics and physics (série C)</h3>
+        <div class="pf-where">Collège Horizon International, Ouagadougou, Burkina Faso</div>
+        <p>Top of the class, with honours: 15.83/20.</p></div></li>
     </ul>
   </div>
 </section>
@@ -108,12 +116,15 @@ page-layout: custom
   <div class="pf-wrap">
     <h2>Awards</h2>
     <ul class="pf-awards">
-      <li><div class="pf-rank">1st <small>/ 19</small></div><div><b>Final-year ranking, ISSEA</b><span>2026, average 16.38/20</span></div></li>
-      <li><div class="pf-rank">Prize</div><div><b>Award of Excellence, ISSEA</b><span>2026, presented by the Director General</span></div></li>
-      <li><div class="pf-rank">3rd <small>/ 28</small></div><div><b>First and second year rankings, ISSEA</b><span>2024 and 2025</span></div></li>
-      <li><div class="pf-rank">1st</div><div><b>Top of class, Baccalauréat (science)</b><span>2023, 15.83/20, Collège Horizon International</span></div></li>
-      <li><div class="pf-rank">2nd</div><div><b>National ranking, BEPC exam, Burkina Faso</b><span>2020, 19/20, 1st in the Centre-Ouest region</span></div></li>
-      <li><div class="pf-rank">Prize</div><div><b>Excellence Prize of the President of Faso</b><span>2020</span></div></li>
+      <li class="pf-award"><div class="pf-medal pf-medal--prize">★</div><div><b>Award of Excellence</b><span>Presented by the Director General of ISSEA</span><span class="pf-year">2026</span></div></li>
+      <li class="pf-award"><div class="pf-medal">1st<small>of 19</small></div><div><b>Final-year ranking</b><span>ISSEA, average 16.38/20</span><span class="pf-year">2026</span></div></li>
+      <li class="pf-award"><div class="pf-medal">3rd<small>of 28</small></div><div><b>Second-year ranking</b><span>ISSEA, average 15.51/20</span><span class="pf-year">2025</span></div></li>
+      <li class="pf-award"><div class="pf-medal">3rd<small>of 28</small></div><div><b>First-year ranking</b><span>ISSEA, average 15.30/20</span><span class="pf-year">2024</span></div></li>
+      <li class="pf-award"><div class="pf-medal">✓</div><div><b>Admitted to the common entrance exam for statistics schools</b><span>ENSAE Dakar, ENSEA Abidjan, ISSEA Yaoundé (CAPESA)</span><span class="pf-year">2023</span></div></li>
+      <li class="pf-award"><div class="pf-medal">1st</div><div><b>Top of the class, baccalauréat</b><span>Collège Horizon International, 15.83/20</span><span class="pf-year">2023</span></div></li>
+      <li class="pf-award"><div class="pf-medal pf-medal--prize">★</div><div><b>Certificate of merit for baccalauréat results</b><span>District 12, city of Ouagadougou</span><span class="pf-year">2023</span></div></li>
+      <li class="pf-award"><div class="pf-medal">2nd<small>national</small></div><div><b>BEPC exam, Burkina Faso</b><span>19/20, and 1st in the Centre-Ouest region</span><span class="pf-year">2020</span></div></li>
+      <li class="pf-award"><div class="pf-medal pf-medal--prize">★</div><div><b>Excellence Prize of the President of Faso</b><span>For the BEPC results, Day of Excellence</span><span class="pf-year">2020</span></div></li>
     </ul>
   </div>
 </section>
@@ -127,9 +138,18 @@ page-layout: custom
       <div><h3>Econometrics and modelling</h3><ul>
         <li>Linear models</li><li>Logit, probit, ordered logit</li><li>Time series and forecasting</li><li>Supervised machine learning</li></ul></div>
       <div><h3>Tools</h3><ul>
-        <li>R (Shiny, ggplot2)</li><li>Python (pandas, scikit-learn, Django)</li><li>SQL, Stata, SPSS, Power BI</li><li>LaTeX, CSPro, ODK</li></ul></div>
+        <li>R (Shiny, ggplot2)</li><li>Python (pandas, scikit-learn, Django)</li><li>SQL, Stata, SPSS, Power BI, Excel</li><li>LaTeX, CSPro, ODK</li></ul></div>
     </div>
-    <p class="pf-lang"><b>Languages:</b> French and English (fluent), Mooré (native).</p>
+    <h3 class="pf-sub">Soft skills</h3>
+    <ul class="pf-chips">
+      <li>Rigour</li><li>Team spirit</li><li>Sense of responsibility</li><li>Adaptability</li><li>Commitment to public service</li>
+    </ul>
+    <div class="pf-extra">
+      <div><h3 class="pf-sub">Languages</h3>
+        <ul class="pf-chips pf-chips--plain"><li>French, fluent</li><li>English, fluent</li><li>Mooré, native</li></ul></div>
+      <div><h3 class="pf-sub">Interests</h3>
+        <ul class="pf-chips pf-chips--plain"><li>Chess</li><li>Reading</li><li>Football</li><li>Artificial intelligence</li></ul></div>
+    </div>
   </div>
 </section>
 
