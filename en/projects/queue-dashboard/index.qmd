@@ -1,0 +1,29 @@
+---
+title: "Queue-reduction dashboard"
+description: "An R Shiny dashboard built on about 255,000 real bank operations, with a scenario simulator to test ways of reducing waiting time."
+categories: [R, Shiny, Data mining]
+order: 1
+draft: true   # remove this line when the page is written
+---
+
+**Tools:** R, Shiny · **Type:** data mining project · [Open the app](https://joris-nitiema.shinyapps.io/dashboard-files-attente/){.btn .btn-primary .btn-sm}
+
+## The question
+
+<!-- YOUR TEXT: what problem does the bank have? What decision should the dashboard help with? 2–3 sentences. -->
+
+## The data
+
+<!-- YOUR TEXT: source, period, number of operations (~255,000), main variables. Say what you cleaned. -->
+
+## The method
+
+<!-- YOUR TEXT: how waiting time is computed (step by step, in words first). How the scenario simulator works. -->
+
+## Results
+
+<!-- Add 2–3 screenshots: put them in assets/img/ and use ![caption](/assets/img/queue-1.png) -->
+
+## Interpretation
+
+<!-- YOUR TEXT, very simple English: what a bank manager should remember. -->

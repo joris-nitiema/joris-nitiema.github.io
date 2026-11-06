@@ -1,0 +1,21 @@
+---
+title: "À propos"
+---
+
+Formé comme statisticien à l'ISSEA (Yaoundé), l'école de statistique de la CEMAC, j'y ai obtenu le diplôme d'Analyste Statisticien, spécialité Data Science. Je suis aujourd'hui en Master 1 Économétrie-Statistiques à l'Aix-Marseille School of Economics (AMSE), dans un programme enseigné entièrement en anglais.
+
+## Expériences
+
+- **Institut National de la Statistique (INS), Cameroun** — stage de fin d'études, 2026. Vulnérabilité multidimensionnelle des ménages accueillant des personnes déplacées internes.
+- **Ministère des Finances (MINFI), Cameroun** — stage, 2025. Production et exportations de cacao : décomposition des séries et prévision de court terme ; tableau de bord d'indicateurs agricoles.
+- **ISSEA** — contrôleur d'enquête (2025) et enquêteur (2024).
+
+## Compétences
+
+**Statistique et enquêtes :** plans de sondage, pondération, questionnaires, ACP, ACM, CAH, indices composites.
+**Économétrie :** modèle linéaire, logit/probit, logit ordonné, séries temporelles et prévision.
+**Outils :** R (Shiny, ggplot2), Python (pandas, scikit-learn, Django), SQL, Stata, SPSS, Power BI, LaTeX.
+
+## Langues
+
+Français (courant) · Anglais (courant) · Mooré (langue maternelle)

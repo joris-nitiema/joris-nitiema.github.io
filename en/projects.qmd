@@ -1,0 +1,13 @@
+---
+title: "Projects"
+listing:
+  contents: projects
+  sort: "order"
+  type: grid
+  fields: [title, description, categories]
+  categories: false
+---
+
+## Other projects
+
+- **Vocab Combo Trainer** (R Shiny): an English–French vocabulary trainer with game modes and progress tracking. [Open the app](https://joris-nitiema.shinyapps.io/application/)

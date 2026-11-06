@@ -1,0 +1,17 @@
+<script>
+// Makes the EN | FR link in the navbar open the SAME page in the other language.
+// English pages live at /page.html, French pages at /fr/page.html.
+document.addEventListener("DOMContentLoaded", function () {
+  var isFrench = document.documentElement.lang === "fr";
+  var path = window.location.pathname;
+  var target = isFrench
+    ? (path.replace(/^\/fr(\/|$)/, "/") || "/")
+    : "/fr" + path;
+  document.querySelectorAll("a.nav-link").forEach(function (a) {
+    var label = a.textContent.trim();
+    if ((isFrench && label === "EN") || (!isFrench && label === "FR")) {
+      a.setAttribute("href", target);
+    }
+  });
+});
+</script>

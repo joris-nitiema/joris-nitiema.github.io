@@ -1,0 +1,11 @@
+/*-- scss:defaults --*/
+$primary: #1f5f99;
+$font-family-sans-serif: "Source Sans 3", system-ui, sans-serif;
+$headings-font-weight: 600;
+
+/*-- scss:rules --*/
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&display=swap");
+
+.hero-pitch { font-size: 1.25rem; color: #444; }
+.project-step { margin-top: 2rem; }
+.doc-list li { margin-bottom: .4rem; }

@@ -1,0 +1,15 @@
+---
+title: "Joris NITIEMA"
+subtitle: "Statistician · M1 Econometrics-Statistics, Aix-Marseille School of Economics"
+# Add your photo later: put it in assets/img/photo.jpg and uncomment the two lines below.
+# image: /assets/img/photo.jpg
+# about: { template: trestles }
+---
+
+::: {.hero-pitch}
+I turn survey and administrative data into indicators, models and dashboards that help people make decisions.
+:::
+
+I am looking for a **3–4 month internship (May–August 2027)** in data science, econometrics or applied statistics.
+
+[See my projects](projects.qmd){.btn .btn-primary} [Download my CV](cv.qmd){.btn .btn-outline-primary} [Email me](mailto:jorisalverick@gmail.com){.btn .btn-outline-secondary}

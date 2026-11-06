@@ -1,0 +1,32 @@
+project:
+  type: website
+
+lang: fr
+
+website:
+  title: "Joris NITIEMA"
+  site-url: "https://joris-nitiema.github.io/fr"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Accueil
+      - href: projects.qmd
+        text: Projets
+      - href: cv.qmd
+        text: CV
+      - href: about.qmd
+        text: À propos
+    right:
+      - text: "EN"
+        href: "https://joris-nitiema.github.io/"
+      - icon: github
+        href: "https://github.com/joris-nitiema"
+        aria-label: GitHub
+  page-footer:
+    center: "© 2026 Joris NITIEMA"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: false
+    include-after-body: lang-switch.html

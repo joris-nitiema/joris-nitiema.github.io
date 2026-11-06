@@ -1,0 +1,14 @@
+---
+title: "Joris NITIEMA"
+subtitle: "Statisticien · M1 Économétrie-Statistiques, Aix-Marseille School of Economics"
+# image: /assets/img/photo.jpg
+# about: { template: trestles }
+---
+
+::: {.hero-pitch}
+Je transforme des données d'enquête et administratives en indicateurs, modèles et tableaux de bord utiles à la décision.
+:::
+
+Je recherche un **stage de 3 à 4 mois (mai – août 2027)** en data science, économétrie ou statistique appliquée.
+
+[Voir mes projets](projects.qmd){.btn .btn-primary} [Télécharger mon CV](cv.qmd){.btn .btn-outline-primary} [M'écrire](mailto:jorisalverick@gmail.com){.btn .btn-outline-secondary}

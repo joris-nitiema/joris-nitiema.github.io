@@ -1,0 +1,19 @@
+---
+title: "EcoTrack Local"
+description: "Une application web Django de suivi et de comparaison des prix par quartier à Yaoundé, avec carte interactive et détection d'anomalies. Équipe de 3."
+categories: [Python, Django, Application web]
+order: 3
+draft: true   # supprimer cette ligne quand la page est rédigée
+---
+
+**Outils :** Python, Django · **Équipe :** 3 étudiants · [Ouvrir l'application](https://nitiemajoris.pythonanywhere.com){.btn .btn-primary .btn-sm}
+
+## La question
+
+## Les données
+
+## La méthode
+
+## Résultats
+
+## Interprétation
