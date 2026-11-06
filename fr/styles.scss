@@ -34,7 +34,7 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid $pf-ochre; outline-offs
 // ---------- shared building blocks ----------
 .pf-wrap { max-width: 1080px; margin: 0 auto; padding: 0 1.5rem; }
 .pf-section { padding: 4.5rem 0; border-top: 1px solid $pf-rule; }
-.pf-section h2 { font-size: 2.1rem; margin: 0 0 .4rem; }
+.pf-section h2, .pf-contact h2 { font-size: 2.1rem; margin: 0 0 .4rem; border-bottom: 0; padding-bottom: 0; }
 .pf-lede { color: $pf-muted; max-width: 62ch; margin-bottom: 2.5rem; }
 
 .pf-btn {
@@ -111,8 +111,8 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid $pf-ochre; outline-offs
 
 // ---------- awards ----------
 .pf-awards { display: grid; grid-template-columns: 1fr 1fr; gap: .25rem 3rem; list-style: none; padding: 0; }
-.pf-awards li { display: grid; grid-template-columns: 4.5rem 1fr; gap: 1rem; align-items: baseline; padding: 1rem 0; border-bottom: 1px solid $pf-rule; }
-.pf-rank { font-family: $headings-font-family; font-size: 1.9rem; line-height: 1; color: $pf-ochre; }
+.pf-awards li { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; align-items: baseline; padding: 1rem 0; border-bottom: 1px solid $pf-rule; }
+.pf-rank { font-family: $headings-font-family; font-size: 1.9rem; line-height: 1; color: $pf-ochre; white-space: nowrap; }
 .pf-rank small { font-size: .9rem; color: $pf-muted; font-family: $font-family-sans-serif; }
 .pf-awards b { font-weight: 600; display: block; }
 .pf-awards span { color: $pf-muted; font-size: .95rem; }
