@@ -38,6 +38,7 @@
   var q = new URLSearchParams(location.search);
   if (q.has("design")) { if (q.get("design") === "off") { del(KEY_ON); del(KEY); } else set(KEY_ON, "1"); }
   if (get(KEY_ON) !== "1") return;
+  document.documentElement.classList.add("pf-design-on");
 
   var DEFAULT = { name: "My choice: Slate & olive gold", ink: "#1b4069", accent: "#abb431", bg: "#f7f9fb" };
   var PALETTES = [DEFAULT,

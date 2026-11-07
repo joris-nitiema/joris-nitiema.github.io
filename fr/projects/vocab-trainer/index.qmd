@@ -1,0 +1,27 @@
+---
+title: "Vocab Combo Trainer"
+description: "Une application Shiny pour s'entraîner au vocabulaire anglais–français, avec modes de jeu, suivi de progression et correction assistée par IA."
+categories: [R, Shiny]
+order: 3
+---
+
+[← Retour aux projets](/fr/#work){.pf-back}
+
+```{=html}
+<ul class="pf-facts">
+  <li><span>Objectif</span><b>S'entraîner au vocabulaire anglais–français</b></li>
+  <li><span>Type</span><b>Projet personnel</b></li>
+  <li><span>Outils</span><b>R, Shiny</b></li>
+</ul>
+<p><a class="pf-more pf-more--solid" href="https://joris-nitiema.shinyapps.io/application/">Ouvrir l'application</a></p>
+```
+
+## Pourquoi je l'ai créée
+
+J'étudie en anglais : j'avais besoin d'un moyen rapide de pratiquer le vocabulaire chaque jour. J'ai donc construit mon propre outil.
+
+## Ce que fait l'application
+
+- Plusieurs modes de jeu.
+- Un suivi de progression.
+- Une correction des réponses assistée par IA.

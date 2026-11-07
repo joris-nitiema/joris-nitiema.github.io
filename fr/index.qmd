@@ -31,38 +31,34 @@ page-layout: custom
   <div class="pf-wrap">
     <h2>Expériences</h2>
     <p class="pf-lede">De la collecte des données sur le terrain à la construction d'indicateurs pour un ministère.</p>
-    <div class="pf-xp">
-      <article class="pf-xp-card">
-        <span class="pf-tag">Stage</span>
-        <div class="pf-xp-when">Mars – juin 2026</div>
-        <h3>Stagiaire analyste de données d'enquête</h3>
-        <div class="pf-xp-org">Institut National de la Statistique (INS) · Yaoundé, Cameroun</div>
+    <div class="pf-grid2">
+      <article class="pf-card pf-xp-card">
+        <div class="pf-card__head"><span class="pf-logo" aria-hidden="true">INS</span><div><span class="pf-tag">Stage</span><div class="pf-when">Mars – juin 2026</div></div></div>
+        <h3>Assistant analyste de données – Enquêtes ménages</h3>
+        <div class="pf-org">Institut National de la Statistique (INS) · Yaoundé, Cameroun</div>
         <p>Mesure de la vulnérabilité de 2 686 ménages accueillant des personnes déplacées, à partir d'une enquête nationale. Mémoire noté 17,20/20.</p>
-        <a class="pf-xp-more" href="experience/ins.html">Détails</a>
+        <div class="pf-card__foot"><a class="pf-more" href="experience/ins.html">Détails <svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div>
       </article>
-      <article class="pf-xp-card">
-        <span class="pf-tag">Stage</span>
-        <div class="pf-xp-when">Juil. – sept. 2025</div>
-        <h3>Stagiaire analyste en prévision économique</h3>
-        <div class="pf-xp-org">Ministère des Finances (MINFI) · Yaoundé, Cameroun</div>
+      <article class="pf-card pf-xp-card">
+        <div class="pf-card__head"><span class="pf-logo" aria-hidden="true">MINFI</span><div><span class="pf-tag">Stage</span><div class="pf-when">Juil. – sept. 2025</div></div></div>
+        <h3>Assistant chargé d'études économiques – Prévision</h3>
+        <div class="pf-org">Ministère des Finances (MINFI) · Yaoundé, Cameroun</div>
         <p>Analyse et prévision de la production et des exportations de cacao, et tableau de bord d'indicateurs agricoles.</p>
-        <a class="pf-xp-more" href="experience/minfi.html">Détails</a>
+        <div class="pf-card__foot"><a class="pf-more" href="experience/minfi.html">Détails <svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div>
       </article>
-      <article class="pf-xp-card">
-        <span class="pf-tag pf-tag--field">Enquête de terrain</span>
-        <div class="pf-xp-when">Mai 2025</div>
+      <article class="pf-card pf-xp-card">
+        <div class="pf-card__head"><span class="pf-logo" aria-hidden="true">ISSEA</span><div><span class="pf-tag pf-tag--field">Enquête de terrain</span><div class="pf-when">Mai 2025</div></div></div>
         <h3>Contrôleur d'enquête</h3>
-        <div class="pf-xp-org">ISSEA · Yaoundé, Cameroun</div>
+        <div class="pf-org">ISSEA · Yaoundé, Cameroun</div>
         <p>Encadrement d'enquêteurs, contrôles de cohérence et validation des données collectées.</p>
-        <a class="pf-xp-more" href="experience/issea-surveys.html#supervisor">Détails</a>
+        <div class="pf-card__foot"><a class="pf-more" href="experience/issea-surveys.html#supervisor">Détails <svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div>
       </article>
-      <article class="pf-xp-card">
-        <span class="pf-tag pf-tag--field">Enquête de terrain</span>
-        <div class="pf-xp-when">Mai 2024</div>
+      <article class="pf-card pf-xp-card">
+        <div class="pf-card__head"><span class="pf-logo" aria-hidden="true">ISSEA</span><div><span class="pf-tag pf-tag--field">Enquête de terrain</span><div class="pf-when">Mai 2024</div></div></div>
         <h3>Enquêteur</h3>
-        <div class="pf-xp-org">ISSEA · Yaoundé, Cameroun</div>
+        <div class="pf-org">ISSEA · Yaoundé, Cameroun</div>
         <p>Collecte en face à face pour une enquête ménages sur la sécurité urbaine à Yaoundé.</p>
-        <a class="pf-xp-more" href="experience/issea-surveys.html#interviewer">Détails</a>
+        <div class="pf-card__foot"><a class="pf-more" href="experience/issea-surveys.html#interviewer">Détails <svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div>
       </article>
     </div>
   </div>
@@ -72,27 +68,30 @@ page-layout: custom
   <div class="pf-wrap">
     <h2>Projets</h2>
     <p class="pf-lede">Des applications construites sur des données réelles, que vous pouvez ouvrir et utiliser.</p>
-    <div class="pf-work">
-      <article class="pf-project pf-project--lead">
+    <div class="pf-grid2">
+      <article class="pf-card pf-pj-card pf-pj-card--lead">
         <div>
+          <span class="pf-tag">Tableau de bord · Data mining</span>
           <h3>Tableau de bord de réduction des files d'attente</h3>
-          <p>Un tableau de bord R Shiny pour une banque : d'où vient le temps d'attente, comment il évolue dans la journée, et un simulateur pour tester l'effet de guichets supplémentaires ou d'une autre organisation.</p>
-          <p class="pf-tools">R, Shiny, data mining</p>
-          <div class="pf-links"><a href="https://joris-nitiema.shinyapps.io/dashboard-files-attente/">Ouvrir l'application</a></div>
+          <p>Un tableau de bord R Shiny pour une banque : d'où vient le temps d'attente, comment il évolue dans la journée, et un simulateur de scénarios pour tester des guichets supplémentaires ou une autre organisation.</p>
+          <ul class="pf-tools"><li>R</li><li>Shiny</li><li>dplyr</li><li>ggplot2</li></ul>
+          <div class="pf-card__foot"><a class="pf-more pf-more--solid" href="https://joris-nitiema.shinyapps.io/dashboard-files-attente/"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6"/><path d="M20 4 10 14"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg> Ouvrir l'application</a><a class="pf-more" href="projects/queue-dashboard/">Détails <svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div>
         </div>
         <div class="pf-figure"><b>255 000</b><span>opérations bancaires réelles analysées</span></div>
       </article>
-      <article class="pf-project">
+      <article class="pf-card pf-pj-card">
+        <span class="pf-tag">Application web · Équipe de 3</span>
         <h3>EcoTrack Local</h3>
-        <p>Une application web pour suivre et comparer les prix alimentaires par quartier à Yaoundé, avec carte interactive et détection automatique des prix inhabituels. Réalisée en équipe de trois.</p>
-        <p class="pf-tools">Python, Django</p>
-        <div class="pf-links"><a href="https://nitiemajoris.pythonanywhere.com">Ouvrir l'application</a></div>
+        <p>Suivre et comparer les prix alimentaires par quartier à Yaoundé, avec carte interactive, détection automatique des prix inhabituels et export CSV.</p>
+        <ul class="pf-tools"><li>Python</li><li>Django</li><li>pandas</li></ul>
+        <div class="pf-card__foot"><a class="pf-more pf-more--solid" href="https://nitiemajoris.pythonanywhere.com"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6"/><path d="M20 4 10 14"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg> Ouvrir l'application</a><a class="pf-more" href="projects/ecotrack/">Détails <svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div>
       </article>
-      <article class="pf-project">
+      <article class="pf-card pf-pj-card">
+        <span class="pf-tag">Application d'apprentissage</span>
         <h3>Vocab Combo Trainer</h3>
         <p>Une application Shiny pour m'entraîner au vocabulaire anglais–français, avec modes de jeu, suivi de progression et correction assistée par IA.</p>
-        <p class="pf-tools">R, Shiny</p>
-        <div class="pf-links"><a href="https://joris-nitiema.shinyapps.io/application/">Ouvrir l'application</a></div>
+        <ul class="pf-tools"><li>R</li><li>Shiny</li></ul>
+        <div class="pf-card__foot"><a class="pf-more pf-more--solid" href="https://joris-nitiema.shinyapps.io/application/"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6"/><path d="M20 4 10 14"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg> Ouvrir l'application</a><a class="pf-more" href="projects/vocab-trainer/">Détails <svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div>
       </article>
     </div>
   </div>
@@ -101,26 +100,26 @@ page-layout: custom
 <section class="pf-section" id="education">
   <div class="pf-wrap">
     <h2>Formation</h2>
-    <ul class="pf-timeline">
-      <li><div class="pf-when">2026 – aujourd'hui</div><div>
-        <h3>Master 1 Économétrie-Statistiques</h3>
-        <div class="pf-where">Aix-Marseille School of Economics (AMSE), Aix-Marseille Université, France</div>
-        <p>Enseignement intégralement en anglais.</p></div></li>
-      <li><div class="pf-when">2023 – 2026</div><div>
-        <h3>Diplôme d'Analyste Statisticien, spécialité Data Science</h3>
-        <div class="pf-where">ISSEA, Yaoundé, Cameroun</div>
-        <p>Admis par le concours commun de l'ENSAE Dakar, de l'ENSEA Abidjan et de l'ISSEA.</p>
-        <ul class="pf-grades">
-          <li><span>1re année : <b>15,30</b>/20, 3e sur 28</span></li>
-          <li><span>2e année : <b>15,51</b>/20, 3e sur 28</span></li>
-          <li><span>3e année : <b>16,38</b>/20, 1er sur 19</span></li>
-          <li><span>Mémoire : <b>17,20</b>/20</span></li>
-        </ul></div></li>
-      <li><div class="pf-when">2020 – 2023</div><div>
-        <h3>Baccalauréat série C</h3>
-        <div class="pf-where">Collège Horizon International, Ouagadougou, Burkina Faso</div>
-        <p>Major de promotion, mention Bien : 15,83/20.</p></div></li>
-    </ul>
+    <div class="pf-stack">
+      <article class="pf-card pf-ed-card">
+        <div class="pf-card__head"><span class="pf-logo" aria-hidden="true">AMU</span><div><span class="pf-tag">En cours · depuis 2026</span><h3>Master Économétrie-Statistiques</h3><div class="pf-org">Aix-Marseille School of Economics (AMSE) · Marseille, France</div></div></div>
+        <p>Première année de Master, enseignée intégralement en anglais : économétrie, statistique et data science.</p>
+        
+        
+      </article>
+      <article class="pf-card pf-ed-card">
+        <div class="pf-card__head"><span class="pf-logo" aria-hidden="true">ISSEA</span><div><span class="pf-tag">Obtenu · 2023 – 2026</span><h3>Diplôme d'Analyste Statisticien, spécialité Data Science</h3><div class="pf-org">ISSEA · Yaoundé, Cameroun</div></div></div>
+        <p>Admis par le concours commun de l'ENSAE Dakar, de l'ENSEA Abidjan et de l'ISSEA. Probabilités, inférence, économétrie, théorie des sondages, analyse des données et machine learning.</p>
+        <ul class="pf-grades"><li><span>1re année</span><b>15,30</b><small>3e sur 28</small></li><li><span>2e année</span><b>15,51</b><small>3e sur 28</small></li><li><span>3e année</span><b>16,38</b><small>1er sur 19</small></li><li><span>Mémoire</span><b>17,20</b></li></ul>
+        <div class="pf-card__foot"><a class="pf-more pf-soon" href="/assets/diplomas/issea-diploma.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg> Voir le diplôme</a></div>
+      </article>
+      <article class="pf-card pf-ed-card">
+        <div class="pf-card__head"><span class="pf-logo" aria-hidden="true">CHI</span><div><span class="pf-tag">Obtenu · 2023</span><h3>Baccalauréat série C</h3><div class="pf-org">Collège Horizon International · Ouagadougou, Burkina Faso</div></div></div>
+        <p>Major de promotion, mention Bien : 15,83/20.</p>
+        
+        <div class="pf-card__foot"><a class="pf-more pf-soon" href="/assets/diplomas/baccalaureat.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg> Voir le diplôme</a></div>
+      </article>
+    </div>
   </div>
 </section>
 
@@ -145,13 +144,43 @@ page-layout: custom
   <div class="pf-wrap">
     <h2>Certificats</h2>
     <p class="pf-lede">Formations en ligne suivies pour renforcer mes compétences en programmation et en machine learning.</p>
-    <ul class="pf-certs">
-      <li class="pf-cert"><span class="pf-issuer">IBM, Cognitive Class</span><b>Machine Learning with Python</b><span class="pf-year">oct. 2025</span><!-- add later: <a class="pf-cert__link" href="LINK">Voir le certificat</a> --></li>
-      <li class="pf-cert"><span class="pf-issuer">IBM, Cognitive Class</span><b>R for Data Science</b><span class="pf-year">mai 2025</span><!-- add later: <a class="pf-cert__link" href="LINK">Voir le certificat</a> --></li>
-      <li class="pf-cert"><span class="pf-issuer">IBM, Cognitive Class</span><b>SQL and Relational Databases 101</b><span class="pf-year">avr. 2026</span><!-- add later: <a class="pf-cert__link" href="LINK">Voir le certificat</a> --></li>
-      <li class="pf-cert"><span class="pf-issuer">IBM, Cognitive Class</span><b>Python for Data Science</b><!-- add later: <a class="pf-cert__link" href="LINK">Voir le certificat</a> --></li>
-      <li class="pf-cert"><span class="pf-issuer">Packt, via Coursera</span><b>R Programming for Statistics and Data Science</b><span class="pf-year">2025</span><!-- add later: <a class="pf-cert__link" href="LINK">Voir le certificat</a> --></li>
-      <li class="pf-cert"><span class="pf-issuer">Coursera</span><b>How to Visualize Your Data Using Microsoft PowerPoint</b><!-- add later: <a class="pf-cert__link" href="LINK">Voir le certificat</a> --></li>
+    <ul class="pf-grid2 pf-plain">
+      <li class="pf-card pf-cert-card">
+        <div class="pf-cert__top"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg><div><b>Machine Learning with Python</b><span class="pf-issuer">IBM · Cognitive Class</span></div></div>
+        <span class="pf-date">oct. 2025</span>
+        <p>Régression, classification et clustering avec scikit-learn, de la préparation des données à l'évaluation des modèles.</p>
+        <div class="pf-card__foot"><a class="pf-more pf-soon" href="#"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg> Voir le certificat</a></div>
+      </li>
+      <li class="pf-card pf-cert-card">
+        <div class="pf-cert__top"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg><div><b>R for Data Science</b><span class="pf-issuer">IBM · Cognitive Class</span></div></div>
+        <span class="pf-date">mai 2025</span>
+        <p>Manipulation, visualisation et analyse de données avec R et le tidyverse.</p>
+        <div class="pf-card__foot"><a class="pf-more pf-soon" href="#"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg> Voir le certificat</a></div>
+      </li>
+      <li class="pf-card pf-cert-card">
+        <div class="pf-cert__top"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg><div><b>SQL and Relational Databases 101</b><span class="pf-issuer">IBM · Cognitive Class</span></div></div>
+        <span class="pf-date">avr. 2026</span>
+        <p>Conception de bases relationnelles et requêtes SQL pour créer, filtrer et joindre des tables.</p>
+        <div class="pf-card__foot"><a class="pf-more pf-soon" href="#"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg> Voir le certificat</a></div>
+      </li>
+      <li class="pf-card pf-cert-card">
+        <div class="pf-cert__top"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg><div><b>Python for Data Science</b><span class="pf-issuer">IBM · Cognitive Class</span></div></div>
+        
+        <p>Bases de Python pour les données : structures de données, pandas et NumPy.</p>
+        <div class="pf-card__foot"><a class="pf-more pf-soon" href="#"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg> Voir le certificat</a></div>
+      </li>
+      <li class="pf-card pf-cert-card">
+        <div class="pf-cert__top"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg><div><b>R Programming for Statistics and Data Science</b><span class="pf-issuer">Packt · Coursera</span></div></div>
+        <span class="pf-date">2025</span>
+        <p>Programmation R appliquée à la statistique : structures de données, fonctions et analyses statistiques.</p>
+        <div class="pf-card__foot"><a class="pf-more pf-soon" href="#"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg> Voir le certificat</a></div>
+      </li>
+      <li class="pf-card pf-cert-card">
+        <div class="pf-cert__top"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg><div><b>How to Visualize Your Data Using Microsoft PowerPoint</b><span class="pf-issuer">Coursera</span></div></div>
+        
+        <p>Transformer des données en graphiques et visuels clairs pour les présentations.</p>
+        <div class="pf-card__foot"><a class="pf-more pf-soon" href="#"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg> Voir le certificat</a></div>
+      </li>
     </ul>
   </div>
 </section>
@@ -159,24 +188,23 @@ page-layout: custom
 <section class="pf-section" id="skills">
   <div class="pf-wrap">
     <h2>Compétences</h2>
-    <div class="pf-skills">
-      <div><h3>Statistique et enquêtes</h3><ul>
-        <li>Plans de sondage et pondération</li><li>Conception de questionnaires</li><li>ACP, ACM, CAH</li><li>Indices composites</li></ul></div>
-      <div><h3>Économétrie et modélisation</h3><ul>
-        <li>Modèle linéaire</li><li>Logit, probit, logit ordonné</li><li>Séries temporelles et prévision</li><li>Apprentissage supervisé</li></ul></div>
-      <div><h3>Outils</h3><ul>
-        <li>R (Shiny, ggplot2)</li><li>Python (pandas, scikit-learn, Django)</li><li>SQL, Stata, SPSS, Power BI, Excel</li><li>LaTeX, CSPro, ODK</li></ul></div>
+    <div class="pf-grid3">
+      <div class="pf-card pf-skill-card"><h3><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 17v-5"/><path d="M12 17V8"/><path d="M17 17v-8"/></svg>Statistique et enquêtes</h3><ul class="pf-dots"><li>Plans de sondage</li><li>Pondération</li><li>Conception de questionnaires</li><li>Collecte (CSPro, ODK)</li><li>ACP, ACM, CAH</li><li>Indices composites</li></ul></div>
+      <div class="pf-card pf-skill-card"><h3><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 6-7"/><circle cx="20" cy="7" r="1"/></svg>Économétrie et modélisation</h3><ul class="pf-dots"><li>Régression linéaire</li><li>Logit et probit</li><li>Logit ordonné</li><li>Séries temporelles</li><li>Prévision</li><li>Apprentissage supervisé</li></ul></div>
+      <div class="pf-card pf-skill-card"><h3><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m8 6-6 6 6 6"/><path d="m16 6 6 6-6 6"/><path d="m14 4-4 16"/></svg>Programmation et outils</h3><ul class="pf-dots"><li>R (Shiny, ggplot2)</li><li>Python (pandas, scikit-learn)</li><li>Django</li><li>SQL</li><li>Stata, SPSS</li><li>Power BI, Excel</li><li>LaTeX</li><li>Excel VBA</li></ul></div>
     </div>
-    <h3 class="pf-sub">Savoir-être</h3>
-    <ul class="pf-chips">
-      <li>Rigueur</li><li>Esprit d'équipe</li><li>Sens des responsabilités</li><li>Adaptabilité</li><li>Engagement au service public</li>
-    </ul>
-    <div class="pf-extra">
-      <div><h3 class="pf-sub">Langues</h3>
-        <ul class="pf-chips pf-chips--plain"><li>Français, courant</li><li>Anglais, courant</li><li>Mooré, langue maternelle</li></ul></div>
-      <div><h3 class="pf-sub">Centres d'intérêt</h3>
-        <ul class="pf-chips pf-chips--plain"><li>Échecs</li><li>Lecture</li><li>Football</li><li>Intelligence artificielle</li></ul></div>
-    </div>
+    <h3 class="pf-sub"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.9"/><path d="M16 3.1a4 4 0 0 1 0 7.8"/></svg>Savoir-être</h3>
+    <ul class="pf-chips"><li>Rigueur</li><li>Esprit d'équipe</li><li>Sens des responsabilités</li><li>Adaptabilité</li><li>Engagement au service public</li></ul>
+  </div>
+</section>
+
+<section class="pf-section" id="beyond">
+  <div class="pf-wrap">
+    <h2>Langues et centres d'intérêt</h2>
+    <h3 class="pf-sub"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 0 20a15 15 0 0 1 0-20z"/></svg>Langues</h3>
+    <ul class="pf-langs pf-plain"><li class="pf-card pf-lang-card"><b>Français</b><span>Courant</span></li><li class="pf-card pf-lang-card"><b>Anglais</b><span>Courant</span></li><li class="pf-card pf-lang-card"><b>Mooré</b><span>Langue maternelle</span></li></ul>
+    <h3 class="pf-sub"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 16l.7 1.8 1.8.7-1.8.7L19 21l-.7-1.8-1.8-.7 1.8-.7z"/></svg>Centres d'intérêt</h3>
+    <ul class="pf-hobbies pf-plain"><li class="pf-card pf-hobby"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 21h12"/><path d="M8 21v-2h8v2"/><path d="M9 19c0-3 1.5-4.5 3-6-1.6.2-3 0-4.2 1.3L6 12.5c.3-4 3.4-7.5 7.5-7.5L14.5 3l1 2.6c2 1.4 2.7 4 2.5 7.4L17 19"/><circle cx="12" cy="8.5" r=".6" fill="currentColor"/></svg><span>Échecs</span></li><li class="pf-card pf-hobby"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 4h6a4 4 0 0 1 4 4v13a3 3 0 0 0-3-3H2z"/><path d="M22 4h-6a4 4 0 0 0-4 4v13a3 3 0 0 1 3-3h7z"/></svg><span>Lecture</span></li><li class="pf-card pf-hobby"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m12 7 4 2.9-1.5 4.6h-5L8 9.9z"/><path d="M12 7V2.5"/><path d="m16 9.9 4.4-1.6"/><path d="m14.5 14.5 2.8 3.9"/><path d="m9.5 14.5-2.8 3.9"/><path d="M8 9.9 3.6 8.3"/></svg><span>Football</span></li><li class="pf-card pf-hobby"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 16l.7 1.8 1.8.7-1.8.7L19 21l-.7-1.8-1.8-.7 1.8-.7z"/></svg><span>Intelligence artificielle</span></li></ul>
   </div>
 </section>
 

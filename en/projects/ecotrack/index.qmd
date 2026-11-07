@@ -2,28 +2,29 @@
 title: "EcoTrack Local"
 description: "A Django web app to track and compare prices by neighbourhood in Yaoundé, with an interactive map and anomaly detection. Team of 3."
 categories: [Python, Django, Web app]
-order: 3
-draft: true   # remove this line when the page is written
+order: 2
 ---
 
-**Tools:** Python, Django · **Team:** 3 students · [Open the app](https://nitiemajoris.pythonanywhere.com){.btn .btn-primary .btn-sm}
+[← Back to projects](/#work){.pf-back}
+
+```{=html}
+<ul class="pf-facts">
+  <li><span>Topic</span><b>Food prices by neighbourhood in Yaoundé</b></li>
+  <li><span>Team</span><b>3 students</b></li>
+  <li><span>Tools</span><b>Python, Django</b></li>
+</ul>
+<p><a class="pf-more pf-more--solid" href="https://nitiemajoris.pythonanywhere.com">Open the app</a></p>
+```
 
 ## The question
 
-<!-- YOUR TEXT -->
+Prices of the same products can vary a lot from one neighbourhood to another. How can residents compare them, and spot prices that look wrong?
 
-## The data
+## What the app does
 
-<!-- YOUR TEXT -->
+- A dashboard of prices by product and by neighbourhood.
+- An interactive map of the neighbourhoods.
+- Automatic detection of unusual prices (anomalies).
+- Export of the data to CSV.
 
-## The method
-
-<!-- YOUR TEXT: how anomalies are detected. Say clearly which parts YOU built. -->
-
-## Results
-
-<!-- 2–3 screenshots -->
-
-## Interpretation
-
-<!-- YOUR TEXT, very simple English -->
+<!-- ADD LATER: which parts you built yourself, how anomalies are detected, 2–3 screenshots. -->

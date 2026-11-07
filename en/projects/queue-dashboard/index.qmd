@@ -3,27 +3,28 @@ title: "Queue-reduction dashboard"
 description: "An R Shiny dashboard built on about 255,000 real bank operations, with a scenario simulator to test ways of reducing waiting time."
 categories: [R, Shiny, Data mining]
 order: 1
-draft: true   # remove this line when the page is written
 ---
 
-**Tools:** R, Shiny · **Type:** data mining project · [Open the app](https://joris-nitiema.shinyapps.io/dashboard-files-attente/){.btn .btn-primary .btn-sm}
+[← Back to projects](/#work){.pf-back}
+
+```{=html}
+<ul class="pf-facts">
+  <li><span>Data</span><b>About 255,000 real bank operations</b></li>
+  <li><span>App</span><b>6 tabs, including a scenario simulator</b></li>
+  <li><span>Tools</span><b>R, Shiny</b></li>
+</ul>
+<p><a class="pf-more pf-more--solid" href="https://joris-nitiema.shinyapps.io/dashboard-files-attente/">Open the app</a></p>
+```
 
 ## The question
 
-<!-- YOUR TEXT: what problem does the bank have? What decision should the dashboard help with? 2–3 sentences. -->
+Customers wait in line at the bank. Where does this waiting time come from, when is it longest, and what would reduce it?
 
-## The data
+## What the dashboard shows
 
-<!-- YOUR TEXT: source, period, number of operations (~255,000), main variables. Say what you cleaned. -->
+- How operations are split by type.
+- The distribution of transaction amounts.
+- How activity changes day by day, with a moving average to see the trend.
+- A scenario simulator to test changes, such as opening more counters.
 
-## The method
-
-<!-- YOUR TEXT: how waiting time is computed (step by step, in words first). How the scenario simulator works. -->
-
-## Results
-
-<!-- Add 2–3 screenshots: put them in assets/img/ and use ![caption](/assets/img/queue-1.png) -->
-
-## Interpretation
-
-<!-- YOUR TEXT, very simple English: what a bank manager should remember. -->
+<!-- ADD LATER (your own words): The data · The method (how waiting time is computed) · Results (2–3 screenshots) · Interpretation -->

@@ -2,18 +2,27 @@
 title: "EcoTrack Local"
 description: "Une application web Django de suivi et de comparaison des prix par quartier à Yaoundé, avec carte interactive et détection d'anomalies. Équipe de 3."
 categories: [Python, Django, Application web]
-order: 3
-draft: true   # supprimer cette ligne quand la page est rédigée
+order: 2
 ---
 
-**Outils :** Python, Django · **Équipe :** 3 étudiants · [Ouvrir l'application](https://nitiemajoris.pythonanywhere.com){.btn .btn-primary .btn-sm}
+[← Retour aux projets](/fr/#work){.pf-back}
+
+```{=html}
+<ul class="pf-facts">
+  <li><span>Sujet</span><b>Prix alimentaires par quartier à Yaoundé</b></li>
+  <li><span>Équipe</span><b>3 étudiants</b></li>
+  <li><span>Outils</span><b>Python, Django</b></li>
+</ul>
+<p><a class="pf-more pf-more--solid" href="https://nitiemajoris.pythonanywhere.com">Ouvrir l'application</a></p>
+```
 
 ## La question
 
-## Les données
+Le prix d'un même produit peut beaucoup varier d'un quartier à l'autre. Comment permettre aux habitants de comparer, et de repérer les prix anormaux ?
 
-## La méthode
+## Ce que fait l'application
 
-## Résultats
-
-## Interprétation
+- Un tableau de bord des prix par produit et par quartier.
+- Une carte interactive des quartiers.
+- La détection automatique des prix inhabituels (anomalies).
+- L'export des données en CSV.

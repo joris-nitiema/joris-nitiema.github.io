@@ -8,6 +8,3 @@ listing:
   categories: false
 ---
 
-## Autres projets
-
-- **Vocab Combo Trainer** (R Shiny) : entraînement au vocabulaire anglais–français, avec modes de jeu et suivi de progression. [Ouvrir l'application](https://joris-nitiema.shinyapps.io/application/)

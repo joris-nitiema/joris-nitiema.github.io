@@ -3,17 +3,26 @@ title: "Tableau de bord de réduction des files d'attente"
 description: "Un tableau de bord R Shiny construit sur environ 255 000 opérations bancaires réelles, avec un simulateur de scénarios pour réduire le temps d'attente."
 categories: [R, Shiny, Data mining]
 order: 1
-draft: true   # supprimer cette ligne quand la page est rédigée
 ---
 
-**Outils :** R, Shiny · **Type :** projet de data mining · [Ouvrir l'application](https://joris-nitiema.shinyapps.io/dashboard-files-attente/){.btn .btn-primary .btn-sm}
+[← Retour aux projets](/fr/#work){.pf-back}
+
+```{=html}
+<ul class="pf-facts">
+  <li><span>Données</span><b>Environ 255 000 opérations bancaires réelles</b></li>
+  <li><span>Application</span><b>6 onglets, dont un simulateur de scénarios</b></li>
+  <li><span>Outils</span><b>R, Shiny</b></li>
+</ul>
+<p><a class="pf-more pf-more--solid" href="https://joris-nitiema.shinyapps.io/dashboard-files-attente/">Ouvrir l'application</a></p>
+```
 
 ## La question
 
-## Les données
+Les clients attendent au guichet de la banque. D'où vient ce temps d'attente, quand est-il le plus long, et qu'est-ce qui permettrait de le réduire ?
 
-## La méthode
+## Ce que montre le tableau de bord
 
-## Résultats
-
-## Interprétation
+- La répartition des opérations par type.
+- La distribution des montants des transactions.
+- L'évolution quotidienne de l'activité, avec une moyenne mobile pour voir la tendance.
+- Un simulateur de scénarios pour tester des changements, comme l'ouverture de guichets supplémentaires.
