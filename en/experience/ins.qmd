@@ -1,0 +1,33 @@
+---
+title: "Survey Data Analyst (intern)"
+subtitle: "National Institute of Statistics (INS), Yaoundé, Cameroon · March – June 2026"
+---
+
+[← Back to experience](/#experience){.pf-back}
+
+```{=html}
+<ul class="pf-facts">
+  <li><span>Department</span><b>Demographic, socio-economic and environmental statistics</b></li>
+  <li><span>Data</span><b>Profiling survey, 2,686 households in 5 municipalities</b></li>
+  <li><span>Result</span><b>Thesis graded 17.20/20</b></li>
+</ul>
+```
+
+## Context
+
+West Cameroon hosts many internally displaced people. Host households share their homes, food and income with them, which can make them vulnerable too. My end-of-studies internship asked one question: how vulnerable are these host households, in which ways, and why?
+
+## What I did
+
+- Cleaned and prepared the data from the 2024 profiling survey of five municipalities in the West region (UNHCR, GIZ, JIPS, INS and BUCREP, December 2024).
+- Described the households' living conditions with descriptive statistics.
+- Built a composite vulnerability index with a Multiple Correspondence Analysis (MCA).
+- Grouped households into profiles with a Hierarchical Cluster Analysis (HCA).
+- Identified the main drivers of vulnerability with an ordered logit model that takes the survey design into account.
+- Wrote and defended my bachelor's thesis on 29 June 2026.
+
+## Tools
+
+R and Python.
+
+<!-- ADD LATER: 2-3 key results in simple words, and a link to the project page. -->

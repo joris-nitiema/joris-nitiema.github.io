@@ -23,12 +23,7 @@ page-layout: custom
 <section class="pf-section" id="path">
   <div class="pf-wrap">
     <h2>My path</h2>
-    <p class="pf-story">I have always loved mathematics and computing. Three years ago, this led me to statistics at ISSEA in Yaoundé, the regional statistics school of the CEMAC countries, which I entered through a competitive exam. There, I learned the mathematics behind statistics, and how to apply it to real data with the right tools. To go further, I joined the Master's in Econometrics-Statistics at Aix-Marseille University. Now I want to use these skills again, as I did at the National Institute of Statistics and the Ministry of Finance of Cameroon, in a new team for an internship.</p>
-    <div class="pf-pillars">
-      <div class="pf-pillar"><h3>The mathematics</h3><p>Probability, statistical inference, linear algebra, analysis and optimisation.</p></div>
-      <div class="pf-pillar"><h3>Applied to real data</h3><p>Econometrics, multivariate data analysis, survey sampling, time series, machine learning.</p></div>
-      <div class="pf-pillar"><h3>With the right tools</h3><p>Excel, R, Python, Stata, SPSS, SQL and Power BI.</p></div>
-    </div>
+    <p class="pf-story">I have always loved mathematics and computing. Three years ago, this led me to statistics at ISSEA in Yaoundé, the regional statistics school of the CEMAC countries, which I entered through a competitive exam. There, I learned <mark class="pf-hl">the mathematics behind statistics</mark> (probability, inference, linear algebra, optimisation), how to <mark class="pf-hl">apply it to real data</mark> through econometrics, data analysis, survey sampling and time series, and how to do it <mark class="pf-hl">with the right tools</mark>: Excel, R, Python, Stata and SQL. To go further, I joined the Master's in Econometrics-Statistics at Aix-Marseille University. Now I want to put these skills into practice again, in a new team, through an internship.</p>
   </div>
 </section>
 
@@ -36,24 +31,40 @@ page-layout: custom
   <div class="pf-wrap">
     <h2>Experience</h2>
     <p class="pf-lede">From collecting survey data in the field to building indicators for a ministry.</p>
-    <ul class="pf-timeline">
-      <li><div class="pf-when">Mar – Jun 2026</div><div>
-        <h3>End-of-studies internship</h3>
-        <div class="pf-where">National Institute of Statistics (INS), Yaoundé, Cameroon</div>
-        <p>Measured the multidimensional vulnerability of households hosting internally displaced people in West Cameroon, from the PESoP 2024 survey (2,686 households). Composite index by MCA, typology by HCA, drivers by a survey-weighted ordered logit. Thesis graded 17.20/20.</p></div></li>
-      <li><div class="pf-when">Jul – Sep 2025</div><div>
-        <h3>Internship, forecasting division</h3>
-        <div class="pf-where">Ministry of Finance (MINFI), Yaoundé, Cameroon</div>
-        <p>Analysed cocoa production and exports from 2015 to 2025: trend, seasonality and short-term forecasts. Built a dashboard of agricultural indicators that replaced calculations done by hand in Excel.</p></div></li>
-      <li><div class="pf-when">May 2025</div><div>
-        <h3>Survey supervisor</h3>
-        <div class="pf-where">ISSEA, Yaoundé, Cameroon</div>
-        <p>Supervised teams of interviewers: consistency checks, validation of incoming data and quality control of the collection.</p></div></li>
-      <li><div class="pf-when">May 2024</div><div>
-        <h3>Survey interviewer</h3>
-        <div class="pf-where">ISSEA, Yaoundé, Cameroon</div>
-        <p>Face-to-face interviews for a household survey on urban safety in Yaoundé.</p></div></li>
-    </ul>
+    <div class="pf-xp">
+      <article class="pf-xp-card">
+        <span class="pf-tag">Internship</span>
+        <div class="pf-xp-when">Mar – Jun 2026</div>
+        <h3>Survey Data Analyst (intern)</h3>
+        <div class="pf-xp-org">National Institute of Statistics (INS) · Yaoundé, Cameroon</div>
+        <p>Measured the vulnerability of 2,686 households hosting displaced people, from a national survey. Thesis graded 17.20/20.</p>
+        <a class="pf-xp-more" href="experience/ins.html">Details</a>
+      </article>
+      <article class="pf-xp-card">
+        <span class="pf-tag">Internship</span>
+        <div class="pf-xp-when">Jul – Sep 2025</div>
+        <h3>Economic Forecasting Analyst (intern)</h3>
+        <div class="pf-xp-org">Ministry of Finance (MINFI) · Yaoundé, Cameroon</div>
+        <p>Analysed and forecast cocoa production and exports, and built a dashboard of agricultural indicators.</p>
+        <a class="pf-xp-more" href="experience/minfi.html">Details</a>
+      </article>
+      <article class="pf-xp-card">
+        <span class="pf-tag pf-tag--field">Field survey</span>
+        <div class="pf-xp-when">May 2025</div>
+        <h3>Survey Supervisor</h3>
+        <div class="pf-xp-org">ISSEA · Yaoundé, Cameroon</div>
+        <p>Supervised interviewers, checked data consistency and validated the collected data.</p>
+        <a class="pf-xp-more" href="experience/issea-surveys.html#supervisor">Details</a>
+      </article>
+      <article class="pf-xp-card">
+        <span class="pf-tag pf-tag--field">Field survey</span>
+        <div class="pf-xp-when">May 2024</div>
+        <h3>Survey Interviewer</h3>
+        <div class="pf-xp-org">ISSEA · Yaoundé, Cameroon</div>
+        <p>Face-to-face interviews for a household survey on urban safety in Yaoundé.</p>
+        <a class="pf-xp-more" href="experience/issea-surveys.html#interviewer">Details</a>
+      </article>
+    </div>
   </div>
 </section>
 

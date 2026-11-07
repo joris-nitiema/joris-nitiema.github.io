@@ -1,0 +1,21 @@
+---
+title: "Field surveys at ISSEA"
+subtitle: "Survey Interviewer (2024), then Survey Supervisor (2025) · Yaoundé, Cameroon"
+---
+
+[← Back to experience](/#experience){.pf-back}
+
+Every year, ISSEA students run a real household survey in Yaoundé. I took part twice: first as an interviewer, then as a supervisor. It taught me where survey data comes from, and how much its quality depends on the work in the field.
+
+## Survey Supervisor · May 2025 {#supervisor}
+
+- Supervised a team of interviewers during data collection.
+- Ran consistency checks on the questionnaires as they came in.
+- Validated the collected data and sent back questionnaires that needed correction.
+
+## Survey Interviewer · May 2024 {#interviewer}
+
+- Conducted face-to-face interviews with households for a survey on urban safety in Yaoundé.
+- Followed the sampling plan and the questionnaire protocol.
+
+<!-- ADD LATER: the name of the 2025 survey, the size of your team, and the collection tool (CSPro, ODK...). -->

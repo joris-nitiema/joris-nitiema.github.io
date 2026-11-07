@@ -1,0 +1,28 @@
+---
+title: "Economic Forecasting Analyst (intern)"
+subtitle: "Ministry of Finance (MINFI), Yaoundé, Cameroon · July – September 2025"
+---
+
+[← Back to experience](/#experience){.pf-back}
+
+```{=html}
+<ul class="pf-facts">
+  <li><span>Division</span><b>Forecasting Division, real economy monitoring unit</b></li>
+  <li><span>Data</span><b>Cocoa production and exports, 2015 – 2025</b></li>
+  <li><span>Output</span><b>Forecasts and a dashboard of agricultural indicators</b></li>
+</ul>
+```
+
+## Context
+
+Cocoa is one of Cameroon's main exports, and the Ministry of Finance follows it closely to anticipate revenue. Before my internship, the unit's agricultural indicators were recalculated by hand in Excel every time.
+
+## What I did
+
+- Analysed quarterly series of cocoa production and exports from 2015 to 2025.
+- Decomposed the series into trend and seasonality to understand how they move during the year and over time.
+- Produced short-term forecasts.
+- Built a dashboard of agricultural indicators, which replaced the manual Excel calculations.
+- Wrote an internship report on this work.
+
+<!-- ADD LATER: the tools you used (R? Excel? Power BI?), the forecasting method, and one key finding in simple words. -->

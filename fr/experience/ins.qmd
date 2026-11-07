@@ -1,0 +1,31 @@
+---
+title: "Stagiaire analyste de données d'enquête"
+subtitle: "Institut National de la Statistique (INS), Yaoundé, Cameroun · mars – juin 2026"
+---
+
+[← Retour aux expériences](/fr/#experience){.pf-back}
+
+```{=html}
+<ul class="pf-facts">
+  <li><span>Département</span><b>Statistiques démographiques, socio-économiques et environnementales</b></li>
+  <li><span>Données</span><b>Enquête de profilage, 2 686 ménages dans 5 communes</b></li>
+  <li><span>Résultat</span><b>Mémoire noté 17,20/20</b></li>
+</ul>
+```
+
+## Contexte
+
+L'Ouest du Cameroun accueille de nombreuses personnes déplacées internes. Les ménages hôtes partagent avec elles leur logement, leur nourriture et leurs revenus, ce qui peut les rendre eux aussi vulnérables. Mon stage de fin d'études partait d'une question : à quel point ces ménages hôtes sont-ils vulnérables, de quelle manière, et pourquoi ?
+
+## Ce que j'ai fait
+
+- Nettoyage et préparation des données de l'enquête de profilage 2024 de cinq communes de la région de l'Ouest (HCR, GIZ, JIPS, INS et BUCREP, décembre 2024).
+- Description des conditions de vie des ménages par des statistiques descriptives.
+- Construction d'un indice composite de vulnérabilité par Analyse des Correspondances Multiples (ACM).
+- Typologie des ménages par Classification Ascendante Hiérarchique (CAH).
+- Identification des principaux déterminants de la vulnérabilité par un modèle logit ordonné tenant compte du plan de sondage.
+- Rédaction et soutenance du mémoire le 29 juin 2026.
+
+## Outils
+
+R et Python.

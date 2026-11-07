@@ -1,0 +1,26 @@
+---
+title: "Stagiaire analyste en prévision économique"
+subtitle: "Ministère des Finances (MINFI), Yaoundé, Cameroun · juillet – septembre 2025"
+---
+
+[← Retour aux expériences](/fr/#experience){.pf-back}
+
+```{=html}
+<ul class="pf-facts">
+  <li><span>Division</span><b>Division de la Prévision, Cellule de suivi et d'analyse de l'économie réelle</b></li>
+  <li><span>Données</span><b>Production et exportations de cacao, 2015 – 2025</b></li>
+  <li><span>Livrables</span><b>Prévisions et tableau de bord d'indicateurs agricoles</b></li>
+</ul>
+```
+
+## Contexte
+
+Le cacao est l'une des principales exportations du Cameroun, et le Ministère des Finances le suit de près pour anticiper les recettes. Avant mon stage, les indicateurs agricoles de la cellule étaient recalculés à la main sous Excel à chaque fois.
+
+## Ce que j'ai fait
+
+- Analyse des séries trimestrielles de production et d'exportations de cacao de 2015 à 2025.
+- Décomposition des séries en tendance et saisonnalité, pour comprendre leur évolution au cours de l'année et dans le temps.
+- Prévisions de court terme.
+- Construction d'un tableau de bord d'indicateurs agricoles, remplaçant les calculs manuels sous Excel.
+- Rédaction d'un rapport de stage sur ce travail.

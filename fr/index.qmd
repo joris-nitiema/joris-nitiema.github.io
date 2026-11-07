@@ -23,12 +23,7 @@ page-layout: custom
 <section class="pf-section" id="path">
   <div class="pf-wrap">
     <h2>Mon parcours</h2>
-    <p class="pf-story">Passionné par les mathématiques et l'informatique, je me suis orienté il y a trois ans vers la statistique, à l'ISSEA de Yaoundé, l'école sous-régionale de statistique de la CEMAC, où je suis entré par concours. J'y ai appris les mathématiques qui fondent la statistique, et à les appliquer à des données réelles avec les bons outils. Pour approfondir cette formation, j'ai rejoint le Master Économétrie-Statistiques d'Aix-Marseille Université. Aujourd'hui, je souhaite mettre à nouveau ces compétences en pratique, comme à l'Institut National de la Statistique et au Ministère des Finances du Cameroun, au sein d'une nouvelle équipe, à travers un stage.</p>
-    <div class="pf-pillars">
-      <div class="pf-pillar"><h3>Les mathématiques</h3><p>Probabilités, inférence statistique, algèbre linéaire, analyse et optimisation.</p></div>
-      <div class="pf-pillar"><h3>Appliquées à des données réelles</h3><p>Économétrie, analyse des données, théorie des sondages, séries temporelles, machine learning.</p></div>
-      <div class="pf-pillar"><h3>Avec les bons outils</h3><p>Excel, R, Python, Stata, SPSS, SQL et Power BI.</p></div>
-    </div>
+    <p class="pf-story">Passionné par les mathématiques et l'informatique, je me suis orienté il y a trois ans vers la statistique, à l'ISSEA de Yaoundé, l'école sous-régionale de statistique de la CEMAC, où je suis entré par concours. J'y ai appris <mark class="pf-hl">les mathématiques qui fondent la statistique</mark> (probabilités, inférence, algèbre linéaire, optimisation), à les <mark class="pf-hl">appliquer à des données réelles</mark> à travers l'économétrie, l'analyse des données, la théorie des sondages et les séries temporelles, et à le faire <mark class="pf-hl">avec les bons outils</mark> : Excel, R, Python, Stata et SQL. Pour approfondir cette formation, j'ai rejoint le Master Économétrie-Statistiques d'Aix-Marseille Université. Aujourd'hui, je souhaite mettre à nouveau ces compétences en pratique au sein d'une nouvelle équipe, à travers un stage.</p>
   </div>
 </section>
 
@@ -36,24 +31,40 @@ page-layout: custom
   <div class="pf-wrap">
     <h2>Expériences</h2>
     <p class="pf-lede">De la collecte des données sur le terrain à la construction d'indicateurs pour un ministère.</p>
-    <ul class="pf-timeline">
-      <li><div class="pf-when">Mars – juin 2026</div><div>
-        <h3>Stage de fin d'études</h3>
-        <div class="pf-where">Institut National de la Statistique (INS), Yaoundé, Cameroun</div>
-        <p>Mesure de la vulnérabilité multidimensionnelle des ménages accueillant des personnes déplacées internes à l'Ouest du Cameroun, à partir de l'enquête PESoP 2024 (2 686 ménages). Indice composite par ACM, typologie par CAH, déterminants par logit ordonné tenant compte du plan de sondage. Mémoire noté 17,20/20.</p></div></li>
-      <li><div class="pf-when">Juil. – sept. 2025</div><div>
-        <h3>Stage, division de la prévision</h3>
-        <div class="pf-where">Ministère des Finances (MINFI), Yaoundé, Cameroun</div>
-        <p>Analyse de la production et des exportations de cacao de 2015 à 2025 : tendance, saisonnalité et prévision de court terme. Tableau de bord d'indicateurs agricoles remplaçant des calculs refaits à la main sous Excel.</p></div></li>
-      <li><div class="pf-when">Mai 2025</div><div>
+    <div class="pf-xp">
+      <article class="pf-xp-card">
+        <span class="pf-tag">Stage</span>
+        <div class="pf-xp-when">Mars – juin 2026</div>
+        <h3>Stagiaire analyste de données d'enquête</h3>
+        <div class="pf-xp-org">Institut National de la Statistique (INS) · Yaoundé, Cameroun</div>
+        <p>Mesure de la vulnérabilité de 2 686 ménages accueillant des personnes déplacées, à partir d'une enquête nationale. Mémoire noté 17,20/20.</p>
+        <a class="pf-xp-more" href="experience/ins.html">Détails</a>
+      </article>
+      <article class="pf-xp-card">
+        <span class="pf-tag">Stage</span>
+        <div class="pf-xp-when">Juil. – sept. 2025</div>
+        <h3>Stagiaire analyste en prévision économique</h3>
+        <div class="pf-xp-org">Ministère des Finances (MINFI) · Yaoundé, Cameroun</div>
+        <p>Analyse et prévision de la production et des exportations de cacao, et tableau de bord d'indicateurs agricoles.</p>
+        <a class="pf-xp-more" href="experience/minfi.html">Détails</a>
+      </article>
+      <article class="pf-xp-card">
+        <span class="pf-tag pf-tag--field">Enquête de terrain</span>
+        <div class="pf-xp-when">Mai 2025</div>
         <h3>Contrôleur d'enquête</h3>
-        <div class="pf-where">ISSEA, Yaoundé, Cameroun</div>
-        <p>Encadrement d'équipes d'enquêteurs : contrôles de cohérence, validation des données reçues et contrôle qualité de la collecte.</p></div></li>
-      <li><div class="pf-when">Mai 2024</div><div>
+        <div class="pf-xp-org">ISSEA · Yaoundé, Cameroun</div>
+        <p>Encadrement d'enquêteurs, contrôles de cohérence et validation des données collectées.</p>
+        <a class="pf-xp-more" href="experience/issea-surveys.html#supervisor">Détails</a>
+      </article>
+      <article class="pf-xp-card">
+        <span class="pf-tag pf-tag--field">Enquête de terrain</span>
+        <div class="pf-xp-when">Mai 2024</div>
         <h3>Enquêteur</h3>
-        <div class="pf-where">ISSEA, Yaoundé, Cameroun</div>
-        <p>Collecte en face à face pour une enquête ménages sur la sécurité urbaine à Yaoundé.</p></div></li>
-    </ul>
+        <div class="pf-xp-org">ISSEA · Yaoundé, Cameroun</div>
+        <p>Collecte en face à face pour une enquête ménages sur la sécurité urbaine à Yaoundé.</p>
+        <a class="pf-xp-more" href="experience/issea-surveys.html#interviewer">Détails</a>
+      </article>
+    </div>
   </div>
 </section>
 
