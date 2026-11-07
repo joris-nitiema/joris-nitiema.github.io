@@ -126,16 +126,16 @@ page-layout: custom
 <section class="pf-section" id="awards">
   <div class="pf-wrap">
     <h2>Distinctions</h2>
-    <ul class="pf-awards">
-      <li class="pf-award"><div class="pf-medal pf-medal--prize">★</div><div><b>Prix d'Excellence</b><span>Remis par le Directeur Général de l'ISSEA</span><span class="pf-year">2026</span></div></li>
-      <li class="pf-award"><div class="pf-medal">1er<small>sur 19</small></div><div><b>Classement de 3e année</b><span>ISSEA, moyenne 16,38/20</span><span class="pf-year">2026</span></div></li>
-      <li class="pf-award"><div class="pf-medal">3e<small>sur 28</small></div><div><b>Classement de 2e année</b><span>ISSEA, moyenne 15,51/20</span><span class="pf-year">2025</span></div></li>
-      <li class="pf-award"><div class="pf-medal">3e<small>sur 28</small></div><div><b>Classement de 1re année</b><span>ISSEA, moyenne 15,30/20</span><span class="pf-year">2024</span></div></li>
-      <li class="pf-award"><div class="pf-medal">✓</div><div><b>Admis au concours commun des écoles de statistique</b><span>ENSAE Dakar, ENSEA Abidjan, ISSEA Yaoundé (CAPESA)</span><span class="pf-year">2023</span></div></li>
-      <li class="pf-award"><div class="pf-medal">1er</div><div><b>Major de promotion au baccalauréat</b><span>Collège Horizon International, 15,83/20</span><span class="pf-year">2023</span></div></li>
-      <li class="pf-award"><div class="pf-medal pf-medal--prize">★</div><div><b>Certificat de mérite pour les résultats au baccalauréat</b><span>Arrondissement n° 12 de la Commune de Ouagadougou</span><span class="pf-year">2023</span></div></li>
-      <li class="pf-award"><div class="pf-medal">2e<small>national</small></div><div><b>BEPC, Burkina Faso</b><span>19/20, et 1er de la région du Centre-Ouest</span><span class="pf-year">2020</span></div></li>
-      <li class="pf-award"><div class="pf-medal pf-medal--prize">★</div><div><b>Prix d'excellence du Président du Faso</b><span>Résultats au BEPC, Journée de l'excellence</span><span class="pf-year">2020</span></div></li>
+    <ul class="pf-aws pf-plain">
+      <li class="pf-aw"><span class="pf-rank pf-rank--ic"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8"/><path d="M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3"/><path d="M7 5H4v2a3 3 0 0 0 3 3"/></svg></span><div><b>Prix d'Excellence</b><span>Remis par le Directeur Général de l'ISSEA</span><span class="pf-aw__year">2026</span></div></li>
+      <li class="pf-aw"><span class="pf-rank">1er<small>sur 19</small></span><div><b>Classement de 3e année</b><span>ISSEA, moyenne 16,38/20</span><span class="pf-aw__year">2026</span></div></li>
+      <li class="pf-aw"><span class="pf-rank">3e<small>sur 28</small></span><div><b>Classement de 2e année</b><span>ISSEA, moyenne 15,51/20</span><span class="pf-aw__year">2025</span></div></li>
+      <li class="pf-aw"><span class="pf-rank">3e<small>sur 28</small></span><div><b>Classement de 1re année</b><span>ISSEA, moyenne 15,30/20</span><span class="pf-aw__year">2024</span></div></li>
+      <li class="pf-aw"><span class="pf-rank pf-rank--ic"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12.5 2.7 2.7L16.5 9"/></svg></span><div><b>Admis au concours commun des écoles de statistique</b><span>ENSAE Dakar, ENSEA Abidjan, ISSEA Yaoundé (CAPESA)</span><span class="pf-aw__year">2023</span></div></li>
+      <li class="pf-aw"><span class="pf-rank">1er<small>de la promo</small></span><div><b>Major de promotion au baccalauréat</b><span>Collège Horizon International, 15,83/20</span><span class="pf-aw__year">2023</span></div></li>
+      <li class="pf-aw"><span class="pf-rank">1er<small>en équipe</small></span><div><b>Lauréat du Concours d'Excellence UA 2023</b><span>Mathématiques et culture générale · IAM, Burkina Faso</span><span class="pf-aw__year">2023</span></div></li>
+      <li class="pf-aw"><span class="pf-rank">2e<small>national</small></span><div><b>BEPC, Burkina Faso</b><span>19/20, et 1er de la région du Centre-Ouest</span><span class="pf-aw__year">2020</span></div></li>
+      <li class="pf-aw"><span class="pf-rank pf-rank--ic"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8"/><path d="M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3"/><path d="M7 5H4v2a3 3 0 0 0 3 3"/></svg></span><div><b>Prix d'excellence du Président du Faso</b><span>Résultats au BEPC, Journée de l'excellence</span><span class="pf-aw__year">2020</span></div></li>
     </ul>
   </div>
 </section>

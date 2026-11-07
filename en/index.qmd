@@ -126,16 +126,16 @@ page-layout: custom
 <section class="pf-section" id="awards">
   <div class="pf-wrap">
     <h2>Awards</h2>
-    <ul class="pf-awards">
-      <li class="pf-award"><div class="pf-medal pf-medal--prize">★</div><div><b>Award of Excellence</b><span>Presented by the Director General of ISSEA</span><span class="pf-year">2026</span></div></li>
-      <li class="pf-award"><div class="pf-medal">1st<small>of 19</small></div><div><b>Final-year ranking</b><span>ISSEA, average 16.38/20</span><span class="pf-year">2026</span></div></li>
-      <li class="pf-award"><div class="pf-medal">3rd<small>of 28</small></div><div><b>Second-year ranking</b><span>ISSEA, average 15.51/20</span><span class="pf-year">2025</span></div></li>
-      <li class="pf-award"><div class="pf-medal">3rd<small>of 28</small></div><div><b>First-year ranking</b><span>ISSEA, average 15.30/20</span><span class="pf-year">2024</span></div></li>
-      <li class="pf-award"><div class="pf-medal">✓</div><div><b>Admitted to the common entrance exam for statistics schools</b><span>ENSAE Dakar, ENSEA Abidjan, ISSEA Yaoundé (CAPESA)</span><span class="pf-year">2023</span></div></li>
-      <li class="pf-award"><div class="pf-medal">1st</div><div><b>Top of the class, baccalauréat</b><span>Collège Horizon International, 15.83/20</span><span class="pf-year">2023</span></div></li>
-      <li class="pf-award"><div class="pf-medal pf-medal--prize">★</div><div><b>Certificate of merit for baccalauréat results</b><span>District 12, city of Ouagadougou</span><span class="pf-year">2023</span></div></li>
-      <li class="pf-award"><div class="pf-medal">2nd<small>national</small></div><div><b>BEPC exam, Burkina Faso</b><span>19/20, and 1st in the Centre-Ouest region</span><span class="pf-year">2020</span></div></li>
-      <li class="pf-award"><div class="pf-medal pf-medal--prize">★</div><div><b>Excellence Prize of the President of Faso</b><span>For the BEPC results, Day of Excellence</span><span class="pf-year">2020</span></div></li>
+    <ul class="pf-aws pf-plain">
+      <li class="pf-aw"><span class="pf-rank pf-rank--ic"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8"/><path d="M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3"/><path d="M7 5H4v2a3 3 0 0 0 3 3"/></svg></span><div><b>Award of Excellence</b><span>Presented by the Director General of ISSEA</span><span class="pf-aw__year">2026</span></div></li>
+      <li class="pf-aw"><span class="pf-rank">1st<small>of 19</small></span><div><b>Final-year ranking</b><span>ISSEA, average 16.38/20</span><span class="pf-aw__year">2026</span></div></li>
+      <li class="pf-aw"><span class="pf-rank">3rd<small>of 28</small></span><div><b>Second-year ranking</b><span>ISSEA, average 15.51/20</span><span class="pf-aw__year">2025</span></div></li>
+      <li class="pf-aw"><span class="pf-rank">3rd<small>of 28</small></span><div><b>First-year ranking</b><span>ISSEA, average 15.30/20</span><span class="pf-aw__year">2024</span></div></li>
+      <li class="pf-aw"><span class="pf-rank pf-rank--ic"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m8 12.5 2.7 2.7L16.5 9"/></svg></span><div><b>Admitted to the common entrance exam for statistics schools</b><span>ENSAE Dakar, ENSEA Abidjan, ISSEA Yaoundé (CAPESA)</span><span class="pf-aw__year">2023</span></div></li>
+      <li class="pf-aw"><span class="pf-rank">1st<small>of class</small></span><div><b>Top of the class, baccalauréat</b><span>Collège Horizon International, 15.83/20</span><span class="pf-aw__year">2023</span></div></li>
+      <li class="pf-aw"><span class="pf-rank">1st<small>team</small></span><div><b>Winner, UA 2023 Excellence Contest</b><span>Mathematics and general knowledge · IAM, Burkina Faso</span><span class="pf-aw__year">2023</span></div></li>
+      <li class="pf-aw"><span class="pf-rank">2nd<small>national</small></span><div><b>BEPC exam, Burkina Faso</b><span>19/20, and 1st in the Centre-Ouest region</span><span class="pf-aw__year">2020</span></div></li>
+      <li class="pf-aw"><span class="pf-rank pf-rank--ic"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8"/><path d="M12 17v4"/><path d="M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M17 5h3v2a3 3 0 0 1-3 3"/><path d="M7 5H4v2a3 3 0 0 0 3 3"/></svg></span><div><b>Excellence Prize of the President of Faso</b><span>For the BEPC results, Day of Excellence</span><span class="pf-aw__year">2020</span></div></li>
     </ul>
   </div>
 </section>
