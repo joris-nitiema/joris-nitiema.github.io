@@ -47,7 +47,13 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid $pf-accent; outline-off
 
 // ---------- hero ----------
 .pf-hero { padding: 4.5rem 0 4rem; }
-.pf-hero__grid { display: grid; grid-template-columns: 1fr 17rem; gap: 4rem; align-items: center; }
+.pf-hero__grid { display: grid; grid-template-columns: 1fr 22rem; gap: 4rem; align-items: center; }
+.pf-photo { position: relative; margin: 0 1.25rem 1.25rem 0; }
+.pf-photo::before {
+  content: ""; position: absolute; inset: 1.25rem -1.25rem -1.25rem 1.25rem;
+  border: 2px solid $pf-accent; background: $pf-accent-soft; border-radius: 16px; z-index: 0;
+}
+.pf-photo img { position: relative; z-index: 1; display: block; width: 100%; height: auto; border-radius: 16px; }
 .pf-hero h1 { font-size: clamp(2.8rem, 6vw, 4.6rem); line-height: 1.02; letter-spacing: -0.02em; font-weight: 500; margin: 0 0 1rem; }
 .pf-hero__role { font-size: 1.15rem; font-weight: 500; color: $pf-accent; margin-bottom: 1.25rem; }
 .pf-hero__pitch { font-size: 1.25rem; max-width: 38ch; margin-bottom: 1rem; }
@@ -142,6 +148,7 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid $pf-accent; outline-off
   .pf-hero__grid, .pf-work, .pf-project--lead, .pf-awards, .pf-skills, .pf-pillars, .pf-extra { grid-template-columns: 1fr; }
   .pf-hero__grid { gap: 2rem; }
   .pf-portrait, .pf-monogram { width: 11rem; height: 11rem; font-size: 3.5rem; justify-self: start; grid-row: 1; }
+  .pf-photo { grid-row: 1; max-width: 17rem; }
   .pf-timeline li { grid-template-columns: 1fr; gap: .25rem; }
   .pf-section { padding: 3rem 0; }
   .pf-story { font-size: 1.2rem; }

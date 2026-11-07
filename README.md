@@ -13,7 +13,7 @@ Each page has the same file name in `en/` and `fr/`, so the EN | FR button opens
 
 ## To do
 
-- [ ] Photo → `assets/img/photo.jpg`, then uncomment the `image` lines in both `index.qmd`
+- [x] Photo (assets/img/photo.jpg, round version in photo-circle.jpg)
 - [ ] CV PDFs (no phone number) → `assets/cv/cv-en.pdf`, `assets/cv/cv-fr.pdf`, then uncomment the links in both `cv.qmd`
 - [ ] Award and certificate files (personal data hidden) → `assets/awards/`, `assets/certificates/`
 - [ ] Write the 3 project pages, then remove `draft: true`

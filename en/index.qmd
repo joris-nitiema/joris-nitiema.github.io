@@ -14,8 +14,9 @@ page-layout: custom
       <a class="pf-btn pf-btn--solid" href="#experience">See my experience</a>
       <a class="pf-btn pf-btn--line" href="cv.html">Download my CV</a>
     </div>
-    <!-- Replace the monogram with your photo: <img class="pf-portrait" src="/assets/img/photo.jpg" alt="Joris NITIEMA"> -->
-    <div class="pf-monogram" aria-hidden="true">JN</div>
+    <!-- To use the round version instead, replace this block with:
+         <img class="pf-portrait" src="/assets/img/photo-circle.jpg" alt="Joris NITIEMA"> -->
+    <figure class="pf-photo"><img src="/assets/img/photo.jpg" alt="Joris NITIEMA" width="720" height="795"></figure>
   </div>
 </header>
 
