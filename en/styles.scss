@@ -182,7 +182,7 @@ html.pf-design-on .pf-soon { display: inline-flex !important; opacity: .5; borde
 .pf-rank--ic { color: var(--pf-accent); }
 .pf-rank--ic .pf-ico { width: 1.9rem; height: 1.9rem; }
 .pf-aw b { display: block; font-weight: 600; line-height: 1.3; }
-.pf-aw span { display: block; color: var(--pf-muted); font-size: .88rem; }
+.pf-aw > div > span { display: block; color: var(--pf-muted); font-size: .88rem; }
 .pf-aw .pf-aw__year { display: inline-block; margin-top: .4rem; font-size: .76rem; font-weight: 600; color: var(--pf-ink); padding: .05rem .6rem; border-radius: 999px; border: 1px solid var(--pf-rule); }
 
 // ---------- contact band ----------
