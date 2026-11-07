@@ -112,6 +112,14 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid $pf-accent; outline-off
 .pf-award span { display: block; color: $pf-muted; font-size: .92rem; }
 .pf-award .pf-year { color: $pf-accent; font-weight: 500; margin-top: .35rem; }
 
+// ---------- certificates ----------
+.pf-certs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; list-style: none; padding: 0; margin: 0; }
+.pf-cert { border: 1px solid $pf-rule; border-top: 3px solid $pf-accent; border-radius: 4px 4px 10px 10px; padding: 1.1rem 1.25rem 1.2rem; display: flex; flex-direction: column; gap: .25rem; }
+.pf-issuer { color: $pf-muted; font-size: .88rem; }
+.pf-cert b { font-weight: 600; line-height: 1.35; }
+.pf-cert .pf-year { color: $pf-accent; font-weight: 500; font-size: .92rem; }
+.pf-cert__link { margin-top: auto; padding-top: .6rem; font-weight: 500; }
+
 // ---------- skills ----------
 .pf-skills { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; }
 .pf-skills h3 { font-family: $font-family-sans-serif; font-size: 1.05rem; font-weight: 600; color: $pf-accent; margin-bottom: .75rem; }
@@ -141,11 +149,11 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid $pf-accent; outline-off
 
 // ---------- mobile ----------
 @media (max-width: 900px) {
-  .pf-awards { grid-template-columns: 1fr 1fr; }
+  .pf-awards, .pf-certs { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 820px) {
   .pf-hero { padding-top: 2.5rem; }
-  .pf-hero__grid, .pf-work, .pf-project--lead, .pf-awards, .pf-skills, .pf-pillars, .pf-extra { grid-template-columns: 1fr; }
+  .pf-hero__grid, .pf-work, .pf-project--lead, .pf-awards, .pf-certs, .pf-skills, .pf-pillars, .pf-extra { grid-template-columns: 1fr; }
   .pf-hero__grid { gap: 2rem; }
   .pf-portrait, .pf-monogram { width: 11rem; height: 11rem; font-size: 3.5rem; justify-self: start; grid-row: 1; }
   .pf-photo { grid-row: 1; max-width: 17rem; }

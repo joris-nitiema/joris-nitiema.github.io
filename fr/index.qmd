@@ -130,6 +130,21 @@ page-layout: custom
   </div>
 </section>
 
+<section class="pf-section" id="certificates">
+  <div class="pf-wrap">
+    <h2>Certificats</h2>
+    <p class="pf-lede">Formations en ligne suivies pour renforcer mes compétences en programmation et en machine learning.</p>
+    <ul class="pf-certs">
+      <li class="pf-cert"><span class="pf-issuer">IBM, Cognitive Class</span><b>Machine Learning with Python</b><span class="pf-year">oct. 2025</span><!-- add later: <a class="pf-cert__link" href="LINK">Voir le certificat</a> --></li>
+      <li class="pf-cert"><span class="pf-issuer">IBM, Cognitive Class</span><b>R for Data Science</b><span class="pf-year">mai 2025</span><!-- add later: <a class="pf-cert__link" href="LINK">Voir le certificat</a> --></li>
+      <li class="pf-cert"><span class="pf-issuer">IBM, Cognitive Class</span><b>SQL and Relational Databases 101</b><span class="pf-year">avr. 2026</span><!-- add later: <a class="pf-cert__link" href="LINK">Voir le certificat</a> --></li>
+      <li class="pf-cert"><span class="pf-issuer">IBM, Cognitive Class</span><b>Python for Data Science</b><!-- add later: <a class="pf-cert__link" href="LINK">Voir le certificat</a> --></li>
+      <li class="pf-cert"><span class="pf-issuer">Packt, via Coursera</span><b>R Programming for Statistics and Data Science</b><span class="pf-year">2025</span><!-- add later: <a class="pf-cert__link" href="LINK">Voir le certificat</a> --></li>
+      <li class="pf-cert"><span class="pf-issuer">Coursera</span><b>How to Visualize Your Data Using Microsoft PowerPoint</b><!-- add later: <a class="pf-cert__link" href="LINK">Voir le certificat</a> --></li>
+    </ul>
+  </div>
+</section>
+
 <section class="pf-section" id="skills">
   <div class="pf-wrap">
     <h2>Compétences</h2>
