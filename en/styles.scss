@@ -1,49 +1,64 @@
 /*-- scss:defaults --*/
-// Palette: deep navy ink with a warm orange accent (darkened so text stays readable).
-$pf-ink: #14213a;
-$pf-muted: #566173;
-$pf-accent: #c0540f;
-$pf-accent-soft: #fcefe4;
-$pf-rule: #e3e6eb;
-$pf-panel: #f6f7f9;
-
-$body-bg: #ffffff;
-$body-color: $pf-ink;
-$primary: $pf-ink;
-$link-color: $pf-accent;
-$font-family-sans-serif: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-$headings-font-family: "Newsreader", Georgia, serif;
+// Bootstrap needs real colours at compile time; the page itself uses the CSS variables below,
+// so the temporary design panel can change them live.
+$body-bg: #f7f9fb;
+$body-color: #1b4069;
+$primary: #1b4069;
+$link-color: #676c1d;
+$font-family-sans-serif: "Outfit", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-family: "EB Garamond", Georgia, serif;
 $headings-font-weight: 500;
-$headings-color: $pf-ink;
-$navbar-bg: #ffffff;
-$navbar-fg: $pf-ink;
-$navbar-hl: $pf-accent;
-$footer-bg: #ffffff;
+$headings-color: #1b4069;
+$navbar-bg: #f7f9fb;
+$navbar-fg: #1b4069;
+$navbar-hl: #676c1d;
+$footer-bg: #f7f9fb;
 $border-radius: 6px;
 
 /*-- scss:rules --*/
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Outfit:wght@400;500;600&display=swap");
 
-body { font-size: 1.0625rem; line-height: 1.6; }
-.navbar { border-bottom: 1px solid $pf-rule; }
-.navbar-brand .navbar-title { font-family: $headings-font-family; font-size: 1.3rem; font-weight: 600; }
-a:focus-visible, .btn:focus-visible { outline: 3px solid $pf-accent; outline-offset: 2px; }
+// Palette: slate blue ink, olive-gold accent (decorative), darker olive for accent text so it stays readable.
+:root {
+  --pf-ink: #1b4069;
+  --pf-accent: #abb431;
+  --pf-bg: #f7f9fb;
+  --pf-card: #ffffff;
+  --pf-on-ink: #ffffff;
+  --pf-accent-text: color-mix(in srgb, var(--pf-accent) 58%, #000);
+  --pf-muted: color-mix(in srgb, var(--pf-ink) 72%, var(--pf-bg));
+  --pf-rule: color-mix(in srgb, var(--pf-ink) 14%, var(--pf-bg));
+  --pf-panel: color-mix(in srgb, var(--pf-ink) 5%, var(--pf-bg));
+  --pf-soft: color-mix(in srgb, var(--pf-accent) 18%, var(--pf-bg));
+  --pf-head: "EB Garamond", Georgia, serif;
+  --pf-body: "Outfit", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+body { background: var(--pf-bg); color: var(--pf-ink); font-family: var(--pf-body); font-size: 1.0625rem; line-height: 1.6; }
+h1, h2, h3, h4, h5, .h1, .h2, .h3 { font-family: var(--pf-head); color: var(--pf-ink); }
+a { color: var(--pf-accent-text); }
+.navbar { background-color: var(--pf-bg) !important; border-bottom: 1px solid var(--pf-rule); }
+.navbar .navbar-title, .navbar .nav-link, .navbar .bi { color: var(--pf-ink) !important; }
+.navbar .nav-link.active, .navbar .nav-link:hover { color: var(--pf-accent-text) !important; }
+.navbar-brand .navbar-title { font-family: var(--pf-head); font-size: 1.4rem; font-weight: 600; }
+.nav-footer { background: var(--pf-bg); color: var(--pf-muted); border-top: 1px solid var(--pf-rule); }
+a:focus-visible, .btn:focus-visible, button:focus-visible { outline: 3px solid var(--pf-accent); outline-offset: 2px; }
 
 // ---------- shared ----------
 .pf-wrap { max-width: 1080px; margin: 0 auto; padding: 0 1.5rem; }
-.pf-section { padding: 4.5rem 0; border-top: 1px solid $pf-rule; }
-.pf-section h2, .pf-contact h2 { font-size: 2.2rem; margin: 0 0 .4rem; border-bottom: 0; padding-bottom: 0; }
-.pf-lede { color: $pf-muted; max-width: 62ch; margin-bottom: 2.5rem; }
-.pf-sub { font-family: $font-family-sans-serif; font-size: 1.05rem; font-weight: 600; color: $pf-accent; margin: 2.5rem 0 1rem; }
+.pf-section { padding: 4.5rem 0; border-top: 1px solid var(--pf-rule); }
+.pf-section h2, .pf-contact h2 { font-size: 2.6rem; font-weight: 500; margin: 0 0 .4rem; border-bottom: 0; padding-bottom: 0; }
+.pf-lede { color: var(--pf-muted); max-width: 62ch; margin-bottom: 2.5rem; }
+.pf-sub { font-family: var(--pf-body); font-size: 1.05rem; font-weight: 600; color: var(--pf-accent-text); margin: 2.5rem 0 1rem; }
 
 .pf-btn {
-  display: inline-block; padding: .65rem 1.2rem; border-radius: $border-radius;
-  font-weight: 500; text-decoration: none; border: 1.5px solid $pf-ink; margin: 0 .5rem .6rem 0;
+  display: inline-block; padding: .65rem 1.2rem; border-radius: 6px;
+  font-weight: 500; text-decoration: none; border: 1.5px solid var(--pf-ink); margin: 0 .5rem .6rem 0;
 }
-.pf-btn--solid { background: $pf-ink; color: #fff; }
-.pf-btn--solid:hover { background: lighten($pf-ink, 12%); color: #fff; }
-.pf-btn--line { color: $pf-ink; background: transparent; border-color: $pf-accent; }
-.pf-btn--line:hover { background: $pf-accent-soft; color: $pf-ink; }
+.pf-btn--solid { background: var(--pf-ink); color: var(--pf-on-ink); }
+.pf-btn--solid:hover { background: color-mix(in srgb, var(--pf-ink) 85%, #fff); color: var(--pf-on-ink); }
+.pf-btn--line { color: var(--pf-ink); background: transparent; border-color: var(--pf-accent); }
+.pf-btn--line:hover { background: var(--pf-soft); color: var(--pf-ink); }
 
 // ---------- hero ----------
 .pf-hero { padding: 4.5rem 0 4rem; }
@@ -51,101 +66,101 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid $pf-accent; outline-off
 .pf-photo { position: relative; margin: 0 1.25rem 1.25rem 0; }
 .pf-photo::before {
   content: ""; position: absolute; inset: 1.25rem -1.25rem -1.25rem 1.25rem;
-  border: 2px solid $pf-accent; background: $pf-accent-soft; border-radius: 16px; z-index: 0;
+  border: 2px solid var(--pf-accent); background: var(--pf-soft); border-radius: 16px; z-index: 0;
 }
 .pf-photo img { position: relative; z-index: 1; display: block; width: 100%; height: auto; border-radius: 16px; }
-.pf-hero h1 { font-size: clamp(2.8rem, 6vw, 4.6rem); line-height: 1.02; letter-spacing: -0.02em; font-weight: 500; margin: 0 0 1rem; }
-.pf-hero__role { font-size: 1.15rem; font-weight: 500; color: $pf-accent; margin-bottom: 1.25rem; }
+.pf-hero h1 { font-size: clamp(3rem, 6.5vw, 5.2rem); line-height: 1; letter-spacing: -0.01em; font-weight: 500; margin: 0 0 1rem; }
+.pf-hero__role { font-size: 1.15rem; font-weight: 500; color: var(--pf-accent-text); margin-bottom: 1.25rem; }
 .pf-hero__pitch { font-size: 1.25rem; max-width: 38ch; margin-bottom: 1rem; }
-.pf-hero__seek { color: $pf-muted; max-width: 48ch; margin-bottom: 1.75rem; }
+.pf-hero__seek { color: var(--pf-muted); max-width: 48ch; margin-bottom: 1.75rem; }
 .pf-portrait, .pf-monogram {
   width: 16rem; height: 16rem; border-radius: 50%; justify-self: center;
-  border: 5px solid #fff; box-shadow: 0 0 0 3px $pf-accent, 0 18px 40px -18px rgba(192, 84, 15, .55);
+  border: 5px solid var(--pf-card); box-shadow: 0 0 0 3px var(--pf-accent);
 }
 .pf-portrait { object-fit: cover; }
-.pf-monogram { display: grid; place-items: center; background: $pf-ink; color: #fff; font-family: $headings-font-family; font-size: 5rem; }
+.pf-monogram { display: grid; place-items: center; background: var(--pf-ink); color: var(--pf-on-ink); font-family: var(--pf-head); font-size: 5rem; }
 
 // ---------- my path (the hook) ----------
-.pf-story { font-family: $headings-font-family; font-size: 1.35rem; line-height: 1.55; max-width: 62ch; margin-bottom: 2.5rem; }
+.pf-story { font-family: var(--pf-head); font-size: 1.5rem; line-height: 1.5; max-width: 60ch; margin-bottom: 2.5rem; }
 .pf-pillars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
-.pf-pillar { background: $pf-panel; border-top: 3px solid $pf-accent; border-radius: 0 0 8px 8px; padding: 1.25rem 1.4rem; }
-.pf-pillar h3 { font-family: $font-family-sans-serif; font-size: 1.05rem; font-weight: 600; margin: 0 0 .6rem; }
-.pf-pillar p { margin: 0; color: $pf-muted; }
+.pf-pillar { background: var(--pf-card); border: 1px solid var(--pf-rule); border-top: 3px solid var(--pf-accent); border-radius: 0 0 8px 8px; padding: 1.25rem 1.4rem; }
+.pf-pillar h3 { font-family: var(--pf-body); font-size: 1.05rem; font-weight: 600; margin: 0 0 .6rem; }
+.pf-pillar p { margin: 0; color: var(--pf-muted); }
 
 // ---------- timelines (experience, education) ----------
 .pf-timeline { list-style: none; padding: 0; margin: 0; }
-.pf-timeline li { display: grid; grid-template-columns: 9.5rem 1fr; gap: 1.5rem; padding: 1.4rem 0; border-bottom: 1px solid $pf-rule; }
+.pf-timeline li { display: grid; grid-template-columns: 9.5rem 1fr; gap: 1.5rem; padding: 1.4rem 0; border-bottom: 1px solid var(--pf-rule); }
 .pf-timeline li:last-child { border-bottom: 0; }
-.pf-when { color: $pf-muted; font-size: .95rem; padding-top: .15rem; }
-.pf-timeline h3 { font-family: $font-family-sans-serif; font-size: 1.12rem; font-weight: 600; margin: 0 0 .15rem; }
-.pf-where { color: $pf-accent; font-size: .95rem; margin-bottom: .4rem; }
-.pf-timeline p { margin: 0; color: $pf-muted; max-width: 66ch; }
+.pf-when { color: var(--pf-muted); font-size: .95rem; padding-top: .15rem; }
+.pf-timeline h3 { font-family: var(--pf-body); font-size: 1.12rem; font-weight: 600; margin: 0 0 .15rem; }
+.pf-where { color: var(--pf-accent-text); font-size: .95rem; margin-bottom: .4rem; }
+.pf-timeline p { margin: 0; color: var(--pf-muted); max-width: 66ch; }
 .pf-grades { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: .75rem; padding: 0; list-style: none; }
-.pf-grades span { display: inline-block; background: $pf-panel; border-radius: 6px; padding: .3rem .7rem; font-size: .92rem; }
+.pf-grades span { display: inline-block; background: var(--pf-panel); border-radius: 6px; padding: .3rem .7rem; font-size: .92rem; }
 .pf-grades b { font-weight: 600; }
 
 // ---------- projects ----------
 .pf-work { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
-.pf-project { border: 1px solid $pf-rule; border-radius: 10px; padding: 1.75rem; display: flex; flex-direction: column; }
-.pf-project h3 { font-size: 1.45rem; margin: 0 0 .5rem; }
-.pf-project p { color: $pf-muted; margin-bottom: 1.25rem; }
+.pf-project { background: var(--pf-card); border: 1px solid var(--pf-rule); border-radius: 10px; padding: 1.75rem; display: flex; flex-direction: column; }
+.pf-project h3 { font-size: 1.6rem; font-weight: 500; margin: 0 0 .5rem; }
+.pf-project p { color: var(--pf-muted); margin-bottom: 1.25rem; }
 .pf-project .pf-tools { font-size: .9rem; margin-top: auto; margin-bottom: 1rem; }
 .pf-project .pf-links a { font-weight: 500; margin-right: 1.25rem; }
-.pf-project--lead { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 15rem; gap: 2rem; background: $pf-panel; border-color: transparent; }
-.pf-project--lead h3 { font-size: 1.9rem; }
-.pf-figure { align-self: center; border-left: 3px solid $pf-accent; padding-left: 1.25rem; }
-.pf-figure b { display: block; font-family: $headings-font-family; font-size: 3rem; font-weight: 500; line-height: 1; color: $pf-ink; }
-.pf-figure span { color: $pf-muted; font-size: .95rem; }
-.pf-other { margin-top: 1.5rem; color: $pf-muted; }
+.pf-project--lead { grid-column: 1 / -1; display: grid; grid-template-columns: 1fr 15rem; gap: 2rem; background: var(--pf-panel); border-color: transparent; }
+.pf-project--lead h3 { font-size: 2.1rem; }
+.pf-figure { align-self: center; border-left: 3px solid var(--pf-accent); padding-left: 1.25rem; }
+.pf-figure b { display: block; font-family: var(--pf-head); font-size: 3.2rem; font-weight: 500; line-height: 1; color: var(--pf-ink); }
+.pf-figure span { color: var(--pf-muted); font-size: .95rem; }
+.pf-other { margin-top: 1.5rem; color: var(--pf-muted); }
 
 // ---------- awards ----------
 .pf-awards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; list-style: none; padding: 0; margin: 0; }
-.pf-award { border: 1px solid $pf-rule; border-radius: 10px; padding: 1.25rem; display: grid; grid-template-columns: 4rem 1fr; gap: 1rem; align-items: start; }
+.pf-award { background: var(--pf-card); border: 1px solid var(--pf-rule); border-radius: 10px; padding: 1.25rem; display: grid; grid-template-columns: 4rem 1fr; gap: 1rem; align-items: start; }
 .pf-medal {
-  width: 4rem; height: 4rem; border-radius: 50%; border: 2px solid $pf-accent; color: $pf-accent;
+  width: 4rem; height: 4rem; border-radius: 50%; border: 2px solid var(--pf-accent); color: var(--pf-ink);
   display: grid; place-items: center; text-align: center; line-height: 1.05;
-  font-family: $headings-font-family; font-size: 1.35rem; font-weight: 600;
+  font-family: var(--pf-head); font-size: 1.45rem; font-weight: 600;
 }
-.pf-medal small { display: block; font-family: $font-family-sans-serif; font-size: .7rem; font-weight: 500; color: $pf-muted; }
-.pf-medal--prize { background: $pf-accent; color: #fff; border-color: $pf-accent; font-size: 1.6rem; }
+.pf-medal small { display: block; font-family: var(--pf-body); font-size: .7rem; font-weight: 500; color: var(--pf-muted); }
+.pf-medal--prize { background: var(--pf-accent); color: var(--pf-ink); border-color: var(--pf-accent); font-size: 1.6rem; }
 .pf-award b { display: block; font-weight: 600; line-height: 1.35; margin-bottom: .25rem; }
-.pf-award span { display: block; color: $pf-muted; font-size: .92rem; }
-.pf-award .pf-year { color: $pf-accent; font-weight: 500; margin-top: .35rem; }
+.pf-award span { display: block; color: var(--pf-muted); font-size: .92rem; }
+.pf-award .pf-year { color: var(--pf-accent-text); font-weight: 500; margin-top: .35rem; }
 
 // ---------- certificates ----------
 .pf-certs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; list-style: none; padding: 0; margin: 0; }
-.pf-cert { border: 1px solid $pf-rule; border-top: 3px solid $pf-accent; border-radius: 4px 4px 10px 10px; padding: 1.1rem 1.25rem 1.2rem; display: flex; flex-direction: column; gap: .25rem; }
-.pf-issuer { color: $pf-muted; font-size: .88rem; }
+.pf-cert { background: var(--pf-card); border: 1px solid var(--pf-rule); border-top: 3px solid var(--pf-accent); border-radius: 4px 4px 10px 10px; padding: 1.1rem 1.25rem 1.2rem; display: flex; flex-direction: column; gap: .25rem; }
+.pf-issuer { color: var(--pf-muted); font-size: .88rem; }
 .pf-cert b { font-weight: 600; line-height: 1.35; }
-.pf-cert .pf-year { color: $pf-accent; font-weight: 500; font-size: .92rem; }
+.pf-cert .pf-year { color: var(--pf-accent-text); font-weight: 500; font-size: .92rem; }
 .pf-cert__link { margin-top: auto; padding-top: .6rem; font-weight: 500; }
 
 // ---------- skills ----------
 .pf-skills { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2.5rem; }
-.pf-skills h3 { font-family: $font-family-sans-serif; font-size: 1.05rem; font-weight: 600; color: $pf-accent; margin-bottom: .75rem; }
+.pf-skills h3 { font-family: var(--pf-body); font-size: 1.05rem; font-weight: 600; color: var(--pf-accent-text); margin-bottom: .75rem; }
 .pf-skills ul { list-style: none; padding: 0; margin: 0; }
-.pf-skills li { padding: .3rem 0; border-bottom: 1px dashed $pf-rule; }
+.pf-skills li { padding: .3rem 0; border-bottom: 1px dashed var(--pf-rule); }
 .pf-chips { display: flex; flex-wrap: wrap; gap: .5rem; padding: 0; margin: 0; list-style: none; }
-.pf-chips li { border: 1px solid #f0c9ab; color: darken($pf-accent, 6%); background: $pf-accent-soft; border-radius: 999px; padding: .3rem .9rem; font-size: .95rem; font-weight: 500; }
-.pf-chips--plain li { border-color: $pf-rule; background: #fff; color: $pf-ink; }
+.pf-chips li { border: 1px solid color-mix(in srgb, var(--pf-accent) 45%, var(--pf-bg)); color: var(--pf-ink); background: var(--pf-soft); border-radius: 999px; padding: .3rem .9rem; font-size: .95rem; font-weight: 500; }
+.pf-chips--plain li { border-color: var(--pf-rule); background: var(--pf-card); color: var(--pf-ink); }
 .pf-extra { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; }
 
 // ---------- contact band ----------
-.pf-contact { background: $pf-ink; color: #fff; padding: 4rem 0; }
-.pf-contact h2 { color: #fff; }
-.pf-contact p { color: #c6cedb; max-width: 52ch; margin-bottom: 1.75rem; }
-.pf-contact .pf-btn--solid { background: $pf-accent; border-color: $pf-accent; }
-.pf-contact .pf-btn--solid:hover { background: darken($pf-accent, 6%); }
-.pf-contact .pf-btn--line { color: #fff; border-color: #6b7a92; }
-.pf-contact .pf-btn--line:hover { background: rgba(255,255,255,.08); color: #fff; }
+.pf-contact { background: var(--pf-ink); color: var(--pf-on-ink); padding: 4rem 0; }
+.pf-contact h2 { color: var(--pf-on-ink); }
+.pf-contact p { color: color-mix(in srgb, var(--pf-on-ink) 78%, var(--pf-ink)); max-width: 52ch; margin-bottom: 1.75rem; }
+.pf-contact .pf-btn--solid { background: var(--pf-accent); border-color: var(--pf-accent); color: var(--pf-ink); }
+.pf-contact .pf-btn--solid:hover { background: color-mix(in srgb, var(--pf-accent) 85%, #fff); color: var(--pf-ink); }
+.pf-contact .pf-btn--line { color: var(--pf-on-ink); border-color: color-mix(in srgb, var(--pf-on-ink) 45%, var(--pf-ink)); }
+.pf-contact .pf-btn--line:hover { background: color-mix(in srgb, var(--pf-on-ink) 10%, var(--pf-ink)); color: var(--pf-on-ink); }
 
 // ---------- other pages ----------
-.quarto-title h1.title { font-size: 2.6rem; }
-.quarto-grid-item.card { border: 1px solid $pf-rule; border-radius: 10px; box-shadow: none; }
-.quarto-grid-item .card-title { font-family: $headings-font-family; font-size: 1.35rem; }
+.quarto-title h1.title { font-size: 2.8rem; }
+.quarto-grid-item.card { background: var(--pf-card); border: 1px solid var(--pf-rule); border-radius: 10px; box-shadow: none; }
+.quarto-grid-item .card-title { font-family: var(--pf-head); font-size: 1.45rem; }
 .pf-docs { list-style: none; padding: 0; }
-.pf-docs li { padding: .7rem 0; border-bottom: 1px solid $pf-rule; }
-.pf-docs li span { color: $pf-muted; }
+.pf-docs li { padding: .7rem 0; border-bottom: 1px solid var(--pf-rule); }
+.pf-docs li span { color: var(--pf-muted); }
 
 // ---------- mobile ----------
 @media (max-width: 900px) {
@@ -159,6 +174,6 @@ a:focus-visible, .btn:focus-visible { outline: 3px solid $pf-accent; outline-off
   .pf-photo { grid-row: 1; max-width: 17rem; }
   .pf-timeline li { grid-template-columns: 1fr; gap: .25rem; }
   .pf-section { padding: 3rem 0; }
-  .pf-story { font-size: 1.2rem; }
-  .pf-figure { border-left: 0; border-top: 3px solid $pf-accent; padding: 1rem 0 0; }
+  .pf-story { font-size: 1.3rem; }
+  .pf-figure { border-left: 0; border-top: 3px solid var(--pf-accent); padding: 1rem 0 0; }
 }

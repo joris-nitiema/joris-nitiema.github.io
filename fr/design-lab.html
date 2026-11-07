@@ -1,0 +1,129 @@
+<!--
+  TEMPORARY design panel. Only visible in a browser where it was switched on with ?design
+  (switch off with ?design=off). Visitors never see it.
+  To delete it at the end: remove this file from en/ and fr/, and the "design-lab.html" line in both _quarto.yml.
+-->
+<style>
+#pfd-toggle { position: fixed; right: calc(16px + env(safe-area-inset-right, 0px)); bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 2000;
+  font: 600 14px/1 system-ui, sans-serif; padding: 12px 16px; border-radius: 999px; border: 0; background: #20242c; color: #fff; cursor: pointer; box-shadow: 0 6px 20px rgba(0,0,0,.25); }
+#pfd-panel { position: fixed; right: calc(16px + env(safe-area-inset-right, 0px)); bottom: calc(70px + env(safe-area-inset-bottom, 0px)); z-index: 2000; width: min(340px, calc(100vw - 32px)); max-height: calc(100vh - 100px); overflow-y: auto;
+  background: #fff; color: #1d2129; border: 1px solid #d9dde4; border-radius: 12px; box-shadow: 0 12px 40px rgba(0,0,0,.25); padding: 16px; font: 14px/1.45 system-ui, sans-serif; }
+#pfd-panel h4 { font: 600 13px/1.3 system-ui, sans-serif; color: #1d2129; margin: 14px 0 8px; }
+#pfd-panel h4:first-child { margin-top: 0; }
+.pfd-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.pfd-opt { display: flex; align-items: center; gap: 6px; padding: 6px 8px; border: 1.5px solid #d9dde4; border-radius: 8px; background: #fff; color: #1d2129; font: 12.5px/1.25 system-ui, sans-serif; text-align: left; cursor: pointer; }
+.pfd-opt[aria-pressed="true"] { border-color: #2f6fdd; box-shadow: 0 0 0 1px #2f6fdd; }
+.pfd-opt i { width: 13px; height: 13px; border-radius: 50%; border: 1px solid rgba(0,0,0,.2); margin-right: -3px; flex: none; }
+.pfd-fonts { display: grid; gap: 5px; max-height: 210px; overflow-y: auto; }
+.pfd-fonts .pfd-opt { display: block; }
+.pfd-fonts b { display: block; font-size: 16px; font-weight: 500; }
+.pfd-fonts span { color: #5d6573; font-size: 12px; }
+.pfd-row { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; }
+.pfd-row code { font-size: 12px; color: #5d6573; margin-left: auto; }
+.pfd-row input { width: 42px; height: 28px; border: 1px solid #d9dde4; border-radius: 6px; padding: 2px; background: #fff; cursor: pointer; }
+.pfd-actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.pfd-actions button { flex: 1 1 auto; padding: 8px 10px; border-radius: 8px; border: 1px solid #d9dde4; background: #fff; color: #1d2129; font: 600 13px system-ui, sans-serif; cursor: pointer; }
+.pfd-actions .pfd-main { background: #20242c; color: #fff; border-color: #20242c; }
+#pfd-out { width: 100%; box-sizing: border-box; margin-top: 8px; font: 12px/1.4 system-ui, sans-serif; border: 1px solid #d9dde4; border-radius: 8px; padding: 6px; color: #1d2129; background: #f6f7f9; min-height: 64px; }
+#pfd-msg { font-size: 12px; color: #5d6573; min-height: 1em; margin: 6px 0 0; }
+#pfd-panel button:focus-visible, #pfd-toggle:focus-visible, #pfd-panel input:focus-visible { outline: 2px solid #2f6fdd; outline-offset: 2px; }
+</style>
+<script>
+(function () {
+  var KEY_ON = "pf-design-on", KEY = "pf-design";
+  function get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
+  function set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+  function del(k) { try { localStorage.removeItem(k); } catch (e) {} }
+
+  var q = new URLSearchParams(location.search);
+  if (q.has("design")) { if (q.get("design") === "off") { del(KEY_ON); del(KEY); } else set(KEY_ON, "1"); }
+  if (get(KEY_ON) !== "1") return;
+
+  var DEFAULT = { name: "My choice: Slate & olive gold", ink: "#1b4069", accent: "#abb431", bg: "#f7f9fb" };
+  var PALETTES = [DEFAULT,
+    { name: "Slate & sky", ink: "#1e2a38", accent: "#1f7ab8", bg: "#f7f9fb" },
+    { name: "Navy & ember", ink: "#14213a", accent: "#c0540f", bg: "#ffffff" },
+    { name: "Charcoal & gold", ink: "#1f1f24", accent: "#a8740f", bg: "#ffffff" },
+    { name: "Royal blue & gold", ink: "#13286b", accent: "#b8860b", bg: "#ffffff" },
+    { name: "Forest & brass", ink: "#173a2e", accent: "#a87526", bg: "#fbfaf6" },
+    { name: "Burgundy & sand", ink: "#5b1f2d", accent: "#b07a34", bg: "#fdfaf6" },
+    { name: "Deep teal & coral", ink: "#0d3b44", accent: "#d2553f", bg: "#ffffff" }];
+  // [name, weights for Google Fonts, kind]
+  var HEADS = [["EB Garamond","400;500;600","serif"],["Newsreader","400;500;600","serif"],["Playfair Display","400;500;600","serif"],["Fraunces","400;500;600","serif"],["Cormorant Garamond","400;500;600","serif"],["DM Serif Display","","serif"],["Libre Baskerville","400;700","serif"],["Lora","400;500;600","serif"],["Montserrat","400;500;600","sans-serif"],["Poppins","400;500;600","sans-serif"],["Sora","400;500;600","sans-serif"]];
+  var BODIES = [["Outfit","400;500;600"],["IBM Plex Sans","400;500;600"],["Lato","400;700"],["Inter","400;500;600"],["Source Sans 3","400;500;600"],["DM Sans","400;500;600"],["Work Sans","400;500;600"],["Raleway","400;500;600"],["Open Sans","400;500;600"],["Nunito Sans","400;500;600"],["Manrope","400;500;600"]];
+  var DEF = { ink: DEFAULT.ink, accent: DEFAULT.accent, bg: DEFAULT.bg, head: "EB Garamond", body: "Outfit" };
+
+  var st = Object.assign({}, DEF);
+  try { Object.assign(st, JSON.parse(get(KEY) || "{}")); } catch (e) {}
+
+  var loaded = {};
+  function loadFont(name, w) {
+    if (loaded[name]) return; loaded[name] = 1;
+    var l = document.createElement("link"); l.rel = "stylesheet";
+    l.href = "https://fonts.googleapis.com/css2?family=" + name.replace(/ /g, "+") + (w ? ":wght@" + w : "") + "&display=swap";
+    document.head.appendChild(l);
+  }
+  function find(list, n) { for (var i = 0; i < list.length; i++) if (list[i][0] === n) return list[i]; return list[0]; }
+  function stackH(n) { var h = find(HEADS, n); return '"' + h[0] + '", ' + (h[2] === "serif" ? "Georgia, serif" : "system-ui, sans-serif"); }
+  function stackB(n) { return '"' + n + '", system-ui, -apple-system, "Segoe UI", sans-serif'; }
+
+  function apply() {
+    var r = document.documentElement.style;
+    r.setProperty("--pf-ink", st.ink); r.setProperty("--pf-accent", st.accent); r.setProperty("--pf-bg", st.bg);
+    var h = find(HEADS, st.head), b = find(BODIES, st.body);
+    loadFont(h[0], h[1]); loadFont(b[0], b[1]);
+    r.setProperty("--pf-head", stackH(st.head)); r.setProperty("--pf-body", stackB(st.body));
+    set(KEY, JSON.stringify(st));
+    if (panel) refresh();
+  }
+
+  var panel = null;
+  function refresh() {
+    panel.querySelectorAll("[data-pal]").forEach(function (b) { var P = PALETTES[+b.dataset.pal]; b.setAttribute("aria-pressed", P.ink === st.ink && P.accent === st.accent && P.bg === st.bg); });
+    panel.querySelectorAll("[data-head]").forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.head === st.head); });
+    panel.querySelectorAll("[data-body]").forEach(function (b) { b.setAttribute("aria-pressed", b.dataset.body === st.body); });
+    ["ink", "accent", "bg"].forEach(function (k) { panel.querySelector("#pfd-" + k).value = st[k]; panel.querySelector("#pfd-v-" + k).textContent = st[k]; });
+    panel.querySelector("#pfd-out").value = "Main colour " + st.ink + ", accent " + st.accent + ", background " + st.bg + "\nFonts: " + st.head + " for titles, " + st.body + " for text";
+  }
+
+  function build() {
+    HEADS.forEach(function (h) { loadFont(h[0], h[1]); }); BODIES.forEach(function (b) { loadFont(b[0], b[1]); });
+    panel = document.createElement("div"); panel.id = "pfd-panel"; panel.hidden = true; panel.setAttribute("role", "dialog"); panel.setAttribute("aria-label", "Design panel");
+    var html = '<h4>Colours</h4><div class="pfd-grid">';
+    PALETTES.forEach(function (P, i) { html += '<button type="button" class="pfd-opt" data-pal="' + i + '"><i style="background:' + P.bg + '"></i><i style="background:' + P.ink + '"></i><i style="background:' + P.accent + '"></i><span style="margin-left:6px">' + P.name + '</span></button>'; });
+    html += '</div><h4>Fine-tune</h4>';
+    [["ink", "Main colour"], ["accent", "Accent"], ["bg", "Background"]].forEach(function (c) { html += '<label class="pfd-row" for="pfd-' + c[0] + '">' + c[1] + '<code id="pfd-v-' + c[0] + '"></code><input type="color" id="pfd-' + c[0] + '"></label>'; });
+    html += '<h4>Title font</h4><div class="pfd-fonts">';
+    HEADS.forEach(function (h) { html += '<button type="button" class="pfd-opt" data-head="' + h[0] + '"><b style="font-family:' + stackH(h[0]) + '">' + h[0] + '</b></button>'; });
+    html += '</div><h4>Text font</h4><div class="pfd-fonts">';
+    BODIES.forEach(function (b) { html += '<button type="button" class="pfd-opt" data-body="' + b[0] + '"><b style="font-family:' + stackB(b[0]) + '">' + b[0] + '</b><span style="font-family:' + stackB(b[0]) + '">I turn survey data into indicators.</span></button>'; });
+    html += '</div><textarea id="pfd-out" readonly aria-label="Current settings"></textarea>' +
+      '<div class="pfd-actions"><button type="button" class="pfd-main" id="pfd-copy">Copy settings</button><button type="button" id="pfd-reset">Back to my choice</button><button type="button" id="pfd-off">Turn panel off</button></div><p id="pfd-msg" aria-live="polite"></p>';
+    panel.innerHTML = html;
+    document.body.appendChild(panel);
+
+    panel.addEventListener("click", function (e) {
+      var b = e.target.closest("button"); if (!b) return;
+      if (b.dataset.pal) { var P = PALETTES[+b.dataset.pal]; st.ink = P.ink; st.accent = P.accent; st.bg = P.bg; apply(); }
+      else if (b.dataset.head) { st.head = b.dataset.head; apply(); }
+      else if (b.dataset.body) { st.body = b.dataset.body; apply(); }
+      else if (b.id === "pfd-reset") { st = Object.assign({}, DEF); apply(); }
+      else if (b.id === "pfd-off") { del(KEY_ON); del(KEY); location.href = location.pathname; }
+      else if (b.id === "pfd-copy") {
+        var t = panel.querySelector("#pfd-out"), m = panel.querySelector("#pfd-msg");
+        var fb = function () { t.focus(); t.select(); m.textContent = "Selected: press Ctrl+C to copy."; };
+        if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t.value).then(function () { m.textContent = "Copied. Paste it in the chat."; }, fb); else fb();
+      }
+    });
+    ["ink", "accent", "bg"].forEach(function (k) { panel.querySelector("#pfd-" + k).addEventListener("input", function (e) { st[k] = e.target.value; apply(); }); });
+
+    var t = document.createElement("button"); t.id = "pfd-toggle"; t.type = "button"; t.textContent = "Design"; t.setAttribute("aria-expanded", "false");
+    t.addEventListener("click", function () { panel.hidden = !panel.hidden; t.setAttribute("aria-expanded", String(!panel.hidden)); });
+    document.body.appendChild(t);
+    refresh();
+  }
+
+  apply();
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", build); else build();
+})();
+</script>

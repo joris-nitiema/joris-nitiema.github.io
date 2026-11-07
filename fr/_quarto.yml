@@ -27,4 +27,6 @@ format:
   html:
     theme: [cosmo, styles.scss]
     toc: false
-    include-after-body: lang-switch.html
+    include-after-body:
+      - lang-switch.html
+      - design-lab.html   # TEMPORARY design panel: delete this line and the file when the design is final
