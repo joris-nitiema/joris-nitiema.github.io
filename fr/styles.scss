@@ -182,6 +182,8 @@ html.pf-design-on .pf-soon { display: inline-flex !important; opacity: .5; borde
 .pf-rank--ic { color: var(--pf-accent); }
 .pf-rank--ic .pf-ico { width: 1.9rem; height: 1.9rem; }
 .pf-aw b { display: block; font-weight: 600; line-height: 1.3; }
+// 10 awards in rows of 3: centre the last one instead of leaving it alone on the left
+.pf-aw:last-child:nth-child(3n+1) { grid-column: 2; }
 .pf-aw > div > span { display: block; color: var(--pf-muted); font-size: .88rem; }
 .pf-aw .pf-aw__year { display: inline-block; margin-top: .4rem; font-size: .76rem; font-weight: 600; color: var(--pf-ink); padding: .05rem .6rem; border-radius: 999px; border: 1px solid var(--pf-rule); }
 
@@ -205,6 +207,7 @@ html.pf-design-on .pf-soon { display: inline-flex !important; opacity: .5; borde
 // ---------- mobile ----------
 @media (max-width: 900px) {
   .pf-aws, .pf-grid3 { grid-template-columns: 1fr 1fr; }
+  .pf-aw:last-child:nth-child(3n+1) { grid-column: auto; }
   .pf-hobbies { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 820px) {
