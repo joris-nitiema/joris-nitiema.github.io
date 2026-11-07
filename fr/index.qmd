@@ -82,7 +82,7 @@ page-layout: custom
       <article class="pf-card pf-pj-card">
         <span class="pf-tag">Application web · Équipe de 3</span>
         <h3>EcoTrack Local</h3>
-        <p>Suivre et comparer les prix alimentaires par quartier à Yaoundé, avec carte interactive, détection automatique des prix inhabituels et export CSV.</p>
+        <p>Suivre et comparer les prix par quartier à Yaoundé, avec carte interactive, détection automatique des prix inhabituels et export CSV.</p>
         <ul class="pf-tools"><li>Python</li><li>Django</li><li>pandas</li></ul>
         <div class="pf-card__foot"><a class="pf-more pf-more--solid" href="https://nitiemajoris.pythonanywhere.com"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6"/><path d="M20 4 10 14"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg> Ouvrir l'application</a><a class="pf-more" href="projects/ecotrack/">Détails <svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div>
       </article>

@@ -9,7 +9,7 @@ order: 2
 
 ```{=html}
 <ul class="pf-facts">
-  <li><span>Sujet</span><b>Prix alimentaires par quartier à Yaoundé</b></li>
+  <li><span>Sujet</span><b>Prix par quartier à Yaoundé</b></li>
   <li><span>Équipe</span><b>3 étudiants</b></li>
   <li><span>Outils</span><b>Python, Django</b></li>
 </ul>
