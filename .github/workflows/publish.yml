@@ -37,6 +37,7 @@ jobs:
           mkdir -p public/fr
           cp -r fr/_site/. public/fr/
           cp -r assets public/assets
+          cp -r assets public/fr/assets
           touch public/.nojekyll
 
       - uses: actions/upload-pages-artifact@v3
