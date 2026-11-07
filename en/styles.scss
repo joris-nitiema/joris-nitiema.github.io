@@ -107,7 +107,8 @@ a:focus-visible, .btn:focus-visible, button:focus-visible { outline: 3px solid v
 .pf-ico { width: 1.15em; height: 1.15em; flex: none; vertical-align: -.2em; }
 .pf-logo { flex: none; width: 3.6rem; height: 3.6rem; border-radius: 12px; display: grid; place-items: center; background: var(--pf-ink); color: var(--pf-on-ink);
   font-family: var(--pf-head); font-weight: 600; font-size: .95rem; letter-spacing: .02em; }
-img.pf-logo { object-fit: contain; background: #fff; border: 1px solid var(--pf-rule); padding: .35rem; }
+img.pf-logo { width: auto; max-width: 8.5rem; height: 3.6rem; object-fit: contain; background: #fff; border: 1px solid var(--pf-rule); padding: .4rem .5rem; box-sizing: border-box; }
+.pf-ed-card img.pf-logo { width: auto; height: 4.6rem; max-width: 9rem; }
 .pf-tag { display: inline-block; font-size: .8rem; font-weight: 600; padding: .15rem .7rem; border-radius: 999px; background: var(--pf-soft); color: var(--pf-ink); border: 1px solid color-mix(in srgb, var(--pf-accent) 45%, var(--pf-bg)); }
 .pf-tag--field { background: var(--pf-panel); border-color: var(--pf-rule); }
 .pf-when, .pf-date { display: block; color: var(--pf-muted); font-size: .9rem; margin-top: .3rem; }

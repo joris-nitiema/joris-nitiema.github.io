@@ -33,28 +33,28 @@ page-layout: custom
     <p class="pf-lede">De la collecte des données sur le terrain à la construction d'indicateurs pour un ministère.</p>
     <div class="pf-grid2">
       <article class="pf-card pf-xp-card">
-        <div class="pf-card__head"><span class="pf-logo" aria-hidden="true">INS</span><div><span class="pf-tag">Stage</span><div class="pf-when">Mars – juin 2026</div></div></div>
+        <div class="pf-card__head"><img class="pf-logo" src="/assets/logos/ins.png" alt="National Institute of Statistics logo" loading="lazy"><div><span class="pf-tag">Stage</span><div class="pf-when">Mars – juin 2026</div></div></div>
         <h3>Assistant analyste de données – Enquêtes ménages</h3>
         <div class="pf-org">Institut National de la Statistique (INS) · Yaoundé, Cameroun</div>
         <p>Mesure de la vulnérabilité de 2 686 ménages accueillant des personnes déplacées, à partir d'une enquête nationale. Mémoire noté 17,20/20.</p>
         <div class="pf-card__foot"><a class="pf-more" href="experience/ins.html">Détails <svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div>
       </article>
       <article class="pf-card pf-xp-card">
-        <div class="pf-card__head"><span class="pf-logo" aria-hidden="true">MINFI</span><div><span class="pf-tag">Stage</span><div class="pf-when">Juil. – sept. 2025</div></div></div>
+        <div class="pf-card__head"><img class="pf-logo" src="/assets/logos/minfi.png" alt="Ministry of Finance logo" loading="lazy"><div><span class="pf-tag">Stage</span><div class="pf-when">Juil. – sept. 2025</div></div></div>
         <h3>Assistant chargé d'études économiques – Prévision</h3>
         <div class="pf-org">Ministère des Finances (MINFI) · Yaoundé, Cameroun</div>
         <p>Analyse et prévision de la production et des exportations de cacao, et tableau de bord d'indicateurs agricoles.</p>
         <div class="pf-card__foot"><a class="pf-more" href="experience/minfi.html">Détails <svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div>
       </article>
       <article class="pf-card pf-xp-card">
-        <div class="pf-card__head"><span class="pf-logo" aria-hidden="true">ISSEA</span><div><span class="pf-tag pf-tag--field">Enquête de terrain</span><div class="pf-when">Mai 2025</div></div></div>
+        <div class="pf-card__head"><img class="pf-logo" src="/assets/logos/issea.png" alt="ISSEA logo" loading="lazy"><div><span class="pf-tag pf-tag--field">Enquête de terrain</span><div class="pf-when">Mai 2025</div></div></div>
         <h3>Contrôleur d'enquête</h3>
         <div class="pf-org">ISSEA · Yaoundé, Cameroun</div>
         <p>Encadrement d'enquêteurs, contrôles de cohérence et validation des données collectées.</p>
         <div class="pf-card__foot"><a class="pf-more" href="experience/issea-surveys.html#supervisor">Détails <svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></div>
       </article>
       <article class="pf-card pf-xp-card">
-        <div class="pf-card__head"><span class="pf-logo" aria-hidden="true">ISSEA</span><div><span class="pf-tag pf-tag--field">Enquête de terrain</span><div class="pf-when">Mai 2024</div></div></div>
+        <div class="pf-card__head"><img class="pf-logo" src="/assets/logos/issea.png" alt="ISSEA logo" loading="lazy"><div><span class="pf-tag pf-tag--field">Enquête de terrain</span><div class="pf-when">Mai 2024</div></div></div>
         <h3>Enquêteur</h3>
         <div class="pf-org">ISSEA · Yaoundé, Cameroun</div>
         <p>Collecte en face à face pour une enquête ménages sur la sécurité urbaine à Yaoundé.</p>
@@ -102,19 +102,19 @@ page-layout: custom
     <h2>Formation</h2>
     <div class="pf-stack">
       <article class="pf-card pf-ed-card">
-        <div class="pf-card__head"><span class="pf-logo" aria-hidden="true">AMU</span><div><span class="pf-tag">En cours · depuis 2026</span><h3>Master Économétrie-Statistiques</h3><div class="pf-org">Aix-Marseille School of Economics (AMSE) · Marseille, France</div></div></div>
+        <div class="pf-card__head"><img class="pf-logo" src="/assets/logos/amu.png" alt="Aix-Marseille University logo" loading="lazy"><div><span class="pf-tag">En cours · depuis 2026</span><h3>Master Économétrie-Statistiques</h3><div class="pf-org">Aix-Marseille School of Economics (AMSE) · Marseille, France</div></div></div>
         <p>Première année de Master, enseignée intégralement en anglais : économétrie, statistique et data science.</p>
         
         
       </article>
       <article class="pf-card pf-ed-card">
-        <div class="pf-card__head"><span class="pf-logo" aria-hidden="true">ISSEA</span><div><span class="pf-tag">Obtenu · 2023 – 2026</span><h3>Diplôme d'Analyste Statisticien, spécialité Data Science</h3><div class="pf-org">ISSEA · Yaoundé, Cameroun</div></div></div>
+        <div class="pf-card__head"><img class="pf-logo" src="/assets/logos/issea.png" alt="ISSEA logo" loading="lazy"><div><span class="pf-tag">Obtenu · 2023 – 2026</span><h3>Diplôme d'Analyste Statisticien, spécialité Data Science</h3><div class="pf-org">ISSEA · Yaoundé, Cameroun</div></div></div>
         <p>Admis par le concours commun de l'ENSAE Dakar, de l'ENSEA Abidjan et de l'ISSEA. Probabilités, inférence, économétrie, théorie des sondages, analyse des données et machine learning.</p>
         <ul class="pf-grades"><li><span>1re année</span><b>15,30</b><small>3e sur 28</small></li><li><span>2e année</span><b>15,51</b><small>3e sur 28</small></li><li><span>3e année</span><b>16,38</b><small>1er sur 19</small></li><li><span>Mémoire</span><b>17,20</b></li></ul>
         <div class="pf-card__foot"><a class="pf-more pf-soon" href="/assets/diplomas/issea-diploma.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg> Voir le diplôme</a></div>
       </article>
       <article class="pf-card pf-ed-card">
-        <div class="pf-card__head"><span class="pf-logo" aria-hidden="true">CHI</span><div><span class="pf-tag">Obtenu · 2023</span><h3>Baccalauréat série C</h3><div class="pf-org">Collège Horizon International · Ouagadougou, Burkina Faso</div></div></div>
+        <div class="pf-card__head"><img class="pf-logo" src="/assets/logos/chi.png" alt="Complexe Scolaire Horizon International logo" loading="lazy"><div><span class="pf-tag">Obtenu · 2023</span><h3>Baccalauréat série C</h3><div class="pf-org">Collège Horizon International · Ouagadougou, Burkina Faso</div></div></div>
         <p>Major de promotion, mention Bien : 15,83/20.</p>
         
         <div class="pf-card__foot"><a class="pf-more pf-soon" href="/assets/diplomas/baccalaureat.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg> Voir le diplôme</a></div>
