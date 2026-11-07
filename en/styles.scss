@@ -118,6 +118,7 @@ img.pf-logo { object-fit: contain; background: #fff; border: 1px solid var(--pf-
 .pf-more--solid:hover { background: color-mix(in srgb, var(--pf-ink) 85%, #fff); color: var(--pf-on-ink); }
 // Buttons waiting for a file: hidden for visitors, shown (dimmed) only with the design panel on.
 .pf-soon { display: none !important; }
+html:not(.pf-design-on) .pf-card__foot:not(:has(> :not(.pf-soon))) { display: none; }
 html.pf-design-on .pf-soon { display: inline-flex !important; opacity: .5; border-style: dashed; }
 .pf-hl { font-weight: 600; color: var(--pf-ink); background: none; padding: 0; }
 
