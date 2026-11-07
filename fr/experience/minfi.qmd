@@ -15,7 +15,7 @@ subtitle: "Ministère des Finances (MINFI), Yaoundé, Cameroun · juillet – se
 
 ## Contexte
 
-Le cacao est l'une des principales exportations du Cameroun, et le Ministère des Finances le suit de près pour anticiper les recettes. Avant mon stage, les indicateurs agricoles de la cellule étaient recalculés à la main sous Excel à chaque fois.
+Le cacao est l'une des principales exportations du Cameroun. Avant mon stage, les indicateurs agricoles de la cellule étaient recalculés à la main sous Excel à chaque fois.
 
 ## Ce que j'ai fait
 

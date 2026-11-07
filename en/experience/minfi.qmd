@@ -15,7 +15,7 @@ subtitle: "Ministry of Finance (MINFI), Yaoundé, Cameroon · July – September
 
 ## Context
 
-Cocoa is one of Cameroon's main exports, and the Ministry of Finance follows it closely to anticipate revenue. Before my internship, the unit's agricultural indicators were recalculated by hand in Excel every time.
+Cocoa is one of Cameroon's main exports. Before my internship, the unit's agricultural indicators were recalculated by hand in Excel every time.
 
 ## What I did
 

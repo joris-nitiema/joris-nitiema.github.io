@@ -19,7 +19,7 @@ L'Ouest du Cameroun accueille de nombreuses personnes déplacées internes. Les 
 
 ## Ce que j'ai fait
 
-- Nettoyage et préparation des données de l'enquête de profilage 2024 de cinq communes de la région de l'Ouest (HCR, GIZ, JIPS, INS et BUCREP, décembre 2024).
+- Exploitation des données de l'enquête de profilage 2024 de cinq communes de la région de l'Ouest (HCR, GIZ, JIPS, INS et BUCREP, décembre 2024).
 - Description des conditions de vie des ménages par des statistiques descriptives.
 - Construction d'un indice composite de vulnérabilité par Analyse des Correspondances Multiples (ACM).
 - Typologie des ménages par Classification Ascendante Hiérarchique (CAH).

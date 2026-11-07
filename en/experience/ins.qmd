@@ -19,7 +19,7 @@ West Cameroon hosts many internally displaced people. Host households share thei
 
 ## What I did
 
-- Cleaned and prepared the data from the 2024 profiling survey of five municipalities in the West region (UNHCR, GIZ, JIPS, INS and BUCREP, December 2024).
+- Worked with the data of the 2024 profiling survey of five municipalities in the West region (UNHCR, GIZ, JIPS, INS and BUCREP, December 2024).
 - Described the households' living conditions with descriptive statistics.
 - Built a composite vulnerability index with a Multiple Correspondence Analysis (MCA).
 - Grouped households into profiles with a Hierarchical Cluster Analysis (HCA).
