@@ -1,0 +1,75 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage{fontspec}\setmainfont{TeX Gyre Pagella}\setsansfont[Scale=0.92]{TeX Gyre Heros}
+\usepackage[a4paper,margin=1.35cm,top=1.2cm,bottom=1.1cm]{geometry}
+\usepackage{xcolor,enumitem,titlesec,tabularx}
+\usepackage[hidelinks]{hyperref}
+\definecolor{ink}{HTML}{1B4069}\definecolor{olive}{HTML}{676C1D}\definecolor{muted}{HTML}{56708F}
+\pagestyle{empty}\setlength{\parindent}{0pt}\color{black}
+\titleformat{\section}{\sffamily\bfseries\color{ink}\large}{}{0pt}{}[{\color{olive}\titlerule[0.8pt]}]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+\setlist[itemize]{leftmargin=1.1em,itemsep=0.5pt,topsep=1.5pt,parsep=0pt,label={\color{olive}\textbullet}}
+\newcommand{\entry}[4]{\textbf{#1}\hfill{\small\color{muted}#2}\\{\itshape #3}\hfill{\small\color{muted}#4}\par}
+\newcommand{\lnk}[2]{\href{#1}{\color{olive}#2}}
+\begin{document}
+
+{\centering{\Huge\bfseries\color{ink} Joris NITIEMA}\\[3pt]
+{\sffamily Master's student in Econometrics-Statistics, Aix-Marseille School of Economics}\\[2pt]
+{\sffamily\small\color{olive} Looking for a 3 to 4 month internship (May -- August 2027): data science, econometrics, applied statistics}\\[3pt]
+{\small Marseille, France \;\textbar\; \lnk{mailto:jorisalverick@gmail.com}{jorisalverick@gmail.com} \;\textbar\; \lnk{https://joris-nitiema.github.io}{joris-nitiema.github.io} \;\textbar\; \lnk{https://www.linkedin.com/in/joris-alverick-nitiema-67b8a4333/}{LinkedIn} \;\textbar\; \lnk{https://github.com/joris-nitiema}{GitHub}}\par}
+
+\section{Profile}
+Statistician trained at ISSEA (the statistics school of the CEMAC region), now a Master's student at AMSE. I turn survey and administrative data into indicators, models and dashboards that support decisions. Experience in a national statistics institute and in a ministry of finance, across the whole chain from data collection to reporting.
+
+\section{Education}
+\entry{Aix-Marseille School of Economics (AMSE), Aix-Marseille University}{2026 -- present}{Master 1 in Econometrics-Statistics, taught entirely in English}{Marseille, France}
+\vspace{3pt}
+\entry{ISSEA -- Sub-regional Institute of Statistics and Applied Economics}{2023 -- 2026}{Analyst Statistician diploma, data science track}{Yaound\'e, Cameroon}
+\begin{itemize}
+\item Admitted through the competitive entrance exam shared by ENSAE Dakar, ENSEA Abidjan and ISSEA.
+\item Ranked 1st of 19 in the final year (16.38/20, highest honours); 3rd of 28 in the first and second years.
+\end{itemize}
+
+\section{Experience}
+\entry{National Institute of Statistics (INS) -- End-of-studies internship}{Mar -- Jun 2026}{Department of demographic, socio-economic and environmental statistics}{Yaound\'e}
+\begin{itemize}
+\item Measured the multidimensional vulnerability of households in municipalities hosting internally displaced people (PESoP 2024 survey, 2,686 households).
+\item Composite index by MCA, typology by hierarchical clustering, drivers by an ordered logit model under the survey design. Thesis graded 17.20/20.
+\end{itemize}
+\vspace{2pt}
+\entry{Ministry of Finance (MINFI) -- Internship}{Jul -- Sep 2025}{Forecasting Division, real economy monitoring unit}{Yaound\'e}
+\begin{itemize}
+\item Cocoa production and exports (2015--2025): decomposition of quarterly series, trend, seasonality and short-term forecasts.
+\item Dashboard of agricultural indicators replacing calculations previously redone by hand in Excel.
+\end{itemize}
+\vspace{2pt}
+\entry{ISSEA -- Survey supervisor (2025) and enumerator (2024)}{2024 -- 2025}{Household surveys}{Yaound\'e}
+\begin{itemize}
+\item Supervised enumerators, ran consistency checks and validated data; face-to-face interviews (household survey on urban safety).
+\end{itemize}
+
+\section{Projects}
+\begin{itemize}
+\item \textbf{Queue-reduction dashboard} (R Shiny): 255,000 real bank operations, activity by type, branch and day, and a simulator estimating the waiting time saved by moving simple operations to digital channels. \lnk{https://joris-nitiema.github.io/projects/queue-dashboard/}{See the project}
+\item \textbf{EcoTrack Local} (Python, Django; team of 3): web app to track and compare prices by neighbourhood in Yaound\'e, with dashboard, interactive map, anomaly detection and CSV export. \lnk{https://joris-nitiema.github.io/projects/ecotrack/}{See the project}
+\item \textbf{Vocab Combo Trainer} (R Shiny): English--French vocabulary trainer with game modes, progress tracking and AI-assisted correction. \lnk{https://joris-nitiema.github.io/projects/vocab-trainer/}{See the project}
+\end{itemize}
+
+\section{Skills}
+\textbf{Statistics and surveys.} Sampling design, weighting, questionnaires, PCA, MCA, clustering, composite indices.\\
+\textbf{Econometrics and forecasting.} Linear models, logit/probit, ordered logit, time series and forecasting.\\
+\textbf{Data science.} Supervised learning, model evaluation, NLP, exploratory analysis.\\
+\textbf{Tools.} R (Shiny, ggplot2), Python (pandas, scikit-learn, Django), SQL, Stata, SPSS, Power BI, Excel/VBA, \LaTeX, CSPro, ODK.\\
+\textbf{Certificates.} IBM: Machine Learning with Python, Python for Data Science, R for Data Science, SQL and Relational Databases; Coursera: R Programming for Statistics and Data Science.
+
+\vspace{2pt}
+\begin{minipage}[t]{0.52\textwidth}
+\section{Awards}
+Award of Excellence, ISSEA (first of the class) \hfill {\small\color{muted}2026}\\
+Excellence Prize of the President of Faso \hfill {\small\color{muted}2020}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.42\textwidth}
+\section{Languages and interests}
+French (fluent), English (fluent), Moor\'e (native)\\
+Chess, reading, football, artificial intelligence
+\end{minipage}
+\end{document}

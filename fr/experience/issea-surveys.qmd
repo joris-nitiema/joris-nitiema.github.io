@@ -3,7 +3,7 @@ title: "Enquêtes de terrain à l'ISSEA"
 subtitle: "Enquêteur (2024), puis contrôleur d'enquête (2025) · Yaoundé, Cameroun"
 ---
 
-[← Retour aux expériences](/fr/#experience){.pf-back}
+[← Retour aux expériences](/#experience){.pf-back}
 
 Pendant ma formation à l'ISSEA, j'ai participé à deux enquêtes ménages à Yaoundé : d'abord comme enquêteur, puis comme contrôleur. Elles m'ont appris d'où viennent les données d'enquête, et à quel point leur qualité dépend du travail sur le terrain.
 

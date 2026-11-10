@@ -2,20 +2,60 @@
 title: "CV et documents"
 ---
 
-<!--
-<a class="pf-btn pf-btn--solid" href="/assets/cv/cv-fr.pdf">CV en français (PDF)</a> <a class="pf-btn pf-btn--line" href="/assets/cv/cv-en.pdf">CV en anglais (PDF)</a>
+```{=html}
+<p class="pf-docrow">
+  <a class="pf-more pf-more--solid" href="/assets/cv/cv-fr.pdf">Télécharger mon CV en français (PDF)</a>
+  <a class="pf-more" href="/assets/cv/cv-en.pdf">CV en anglais (PDF)</a>
+</p>
+<iframe src="/assets/cv/cv-fr.pdf" title="CV" width="100%" height="900" style="border:1px solid #dde3ea;border-radius:12px;background:#fff"></iframe>
+```
 
-<iframe src="/assets/cv/cv-fr.pdf" width="100%" height="900" style="border:1px solid #dde3ea;border-radius:10px"></iframe>
--->
+## Pièces justificatives
 
-## Certificats
+La plupart des documents ci-dessous sont des scans des originaux. Les données personnelles (date de naissance, numéros d'identification) sont masquées.
+
+### Diplômes et relevés de notes
 
 ```{=html}
-<ul class="pf-docs">
-  <li><b>Machine Learning with Python</b> <span>IBM, Cognitive Class, 2025</span></li>
-  <li><b>Python for Data Science</b> <span>IBM, Cognitive Class, 2025</span></li>
-  <li><b>R for Data Science</b> <span>IBM, Cognitive Class, 2025</span></li>
-  <li><b>SQL and Relational Databases</b> <span>IBM, Cognitive Class, 2026</span></li>
-  <li><b>R Programming for Statistics and Data Science</b> <span>Packt, via Coursera, 2025</span></li>
+<ul class="pf-docs2">
+  <li><a href="/assets/docs/diplomas/issea-diploma.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>Diplôme d'Analyste Statisticien</b><span>ISSEA, 2026 · attestation de réussite</span></div></a></li>
+  <li><a href="/assets/docs/diplomas/issea-transcript-year3.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>Relevé de notes, 3e année</b><span>ISSEA, 2025-2026 · 16,38/20, 1er sur 19</span></div></a></li>
+  <li><a href="/assets/docs/diplomas/issea-transcript-year2.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>Relevé de notes, 2e année</b><span>ISSEA, 2024-2025 · 15,51/20</span></div></a></li>
+  <li><a href="/assets/docs/diplomas/issea-transcript-year1.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>Relevé de notes, 1re année</b><span>ISSEA, 2023-2024 · 15,30/20</span></div></a></li>
+  <li><a href="/assets/docs/diplomas/baccalaureat.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>Diplôme du baccalauréat</b><span>Burkina Faso, 2023 · série C, mention Bien</span></div></a></li>
 </ul>
 ```
+
+### Distinctions
+
+```{=html}
+<ul class="pf-docs2">
+  <li><a href="/assets/docs/awards/issea-award-of-excellence.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>Prix d'Excellence</b><span>ISSEA, 2026 · premier de la classe</span></div></a></li>
+  <li><a href="/assets/docs/awards/president-excellence-prize-2020.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>Prix d'excellence du Président du Faso</b><span>2020 · BEPC</span></div></a></li>
+  <li><a href="/assets/docs/awards/certificate-of-merit-2023.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>Attestation de mérite</b><span>Arrondissement n° 12 de Ouagadougou, 2023 · baccalauréat</span></div></a></li>
+</ul>
+```
+
+### Stages
+
+```{=html}
+<ul class="pf-docs2">
+  <li><a href="/assets/docs/experience/thesis-ins-2026.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>Mémoire de fin d'études</b><span>INS, 2026 · vulnérabilité des ménages, 17,20/20</span></div></a></li>
+  <li><a href="/assets/docs/experience/ins-internship-certificate.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>Attestation de stage, INS</b><span>Mars – juin 2026</span></div></a></li>
+  <li><a href="/assets/docs/experience/minfi-internship-report-2025.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>Rapport de stage</b><span>MINFI, 2025 · production et exportations de cacao</span></div></a></li>
+  <li><a href="/assets/docs/experience/minfi-internship-certificate.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>Attestation de stage, MINFI</b><span>Juillet – septembre 2025</span></div></a></li>
+</ul>
+```
+
+### Certificats
+
+```{=html}
+<ul class="pf-docs2">
+  <li><a href="/assets/docs/certificates/ibm-machine-learning-python.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>Machine Learning with Python</b><span>IBM, Cognitive Class · oct. 2025</span></div></a></li>
+  <li><a href="/assets/docs/certificates/ibm-r-for-data-science.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>R for Data Science</b><span>IBM, Cognitive Class · mai 2025</span></div></a></li>
+  <li><a href="/assets/docs/certificates/ibm-sql-relational-databases.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>SQL and Relational Databases 101</b><span>IBM, Cognitive Class · avr. 2026</span></div></a></li>
+  <li><a href="/assets/docs/certificates/coursera-r-programming.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>R Programming for Statistics and Data Science</b><span>Packt, Coursera · oct. 2025</span></div></a></li>
+  <li><a href="/assets/docs/certificates/coursera-data-visualisation-powerpoint.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg><div><b>How to Visualize Your Data Using Microsoft PowerPoint</b><span>Coursera · déc. 2024</span></div></a></li>
+</ul>
+```
+

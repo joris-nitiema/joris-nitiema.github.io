@@ -9,22 +9,34 @@ order: 2
 
 ```{=html}
 <ul class="pf-facts">
-  <li><span>Topic</span><b>Prices by neighbourhood in Yaoundé</b></li>
-  <li><span>Team</span><b>3 students</b></li>
+  <li><span>Topic</span><b>Students' cost of living in Yaoundé</b></li>
+  <li><span>Team</span><b>3 students, web programming and databases course, ISSEA</b></li>
   <li><span>Tools</span><b>Python, Django</b></li>
 </ul>
-<p><a class="pf-more pf-more--solid" href="https://nitiemajoris.pythonanywhere.com">Open the app</a></p>
+<p class="pf-docrow"><a class="pf-more pf-more--solid" href="https://nitiemajoris.pythonanywhere.com">Open the app</a></p>
 ```
 
 ## The question
 
-Prices of the same products can vary a lot from one neighbourhood to another. How can residents compare them, and spot prices that look wrong?
+Transport, housing and food prices change fast, and the same product does not cost the same in every neighbourhood. How can students know where to buy cheaper, and how can we collect reliable local price data?
+
+## The idea: participatory data collection
+
+Users record their daily expenses: product, price, place and neighbourhood. Each entry becomes a data point. Together, these entries give a picture of prices across Yaoundé that no single person could collect.
+
+![The home page of EcoTrack Local.](/assets/img/projects/ecotrack-home.jpg){.pf-shot}
 
 ## What the app does
 
-- A dashboard of prices by product and by neighbourhood.
-- An interactive map of the neighbourhoods.
-- Automatic detection of unusual prices (anomalies).
-- Export of the data to CSV.
+- **Quick entry** of expenses, with predefined products and automatic validation.
+- **Interactive dashboard**: charts of expenses by category and by period.
+- **Price comparison** between neighbourhoods, to find where a product is cheapest.
+- **Interactive map** of expenses in Yaoundé.
+- **Anomaly detection**: the app flags likely entry errors and duplicates, which matters when data comes from many users.
+- **CSV export** for further analysis in Excel or R.
 
-<!-- ADD LATER: which parts you built yourself, how anomalies are detected, 2–3 screenshots. -->
+![How it works: record, visualise, compare.](/assets/img/projects/ecotrack-features.jpg){.pf-shot}
+
+## What I learned
+
+This project covers the whole chain of a small statistical system: designing the database, collecting data from users, checking its quality, and presenting the results. The dashboard, map and comparison pages need a free account to open.

@@ -17,6 +17,9 @@ website:
     right:
       - text: "FR"
         href: "https://joris-nitiema.github.io/fr/"
+      - icon: linkedin
+        href: "https://www.linkedin.com/in/joris-alverick-nitiema-67b8a4333/"
+        aria-label: LinkedIn
       - icon: github
         href: "https://github.com/joris-nitiema"
         aria-label: GitHub

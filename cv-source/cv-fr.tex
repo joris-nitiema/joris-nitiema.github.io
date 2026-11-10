@@ -1,0 +1,75 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage{fontspec}\setmainfont{TeX Gyre Pagella}\setsansfont[Scale=0.92]{TeX Gyre Heros}
+\usepackage[a4paper,margin=1.35cm,top=1.2cm,bottom=1.1cm]{geometry}
+\usepackage{xcolor,enumitem,titlesec,tabularx}
+\usepackage[hidelinks]{hyperref}
+\definecolor{ink}{HTML}{1B4069}\definecolor{olive}{HTML}{676C1D}\definecolor{muted}{HTML}{56708F}
+\pagestyle{empty}\setlength{\parindent}{0pt}\color{black}
+\titleformat{\section}{\sffamily\bfseries\color{ink}\large}{}{0pt}{}[{\color{olive}\titlerule[0.8pt]}]
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+\setlist[itemize]{leftmargin=1.1em,itemsep=0.5pt,topsep=1.5pt,parsep=0pt,label={\color{olive}\textbullet}}
+\newcommand{\entry}[4]{\textbf{#1}\hfill{\small\color{muted}#2}\\{\itshape #3}\hfill{\small\color{muted}#4}\par}
+\newcommand{\lnk}[2]{\href{#1}{\color{olive}#2}}
+\begin{document}
+
+{\centering{\Huge\bfseries\color{ink} Joris NITIEMA}\\[3pt]
+{\sffamily \'Etudiant en Master 1 \'Econom\'etrie-Statistiques, Aix-Marseille School of Economics}\\[2pt]
+{\sffamily\small\color{olive} Recherche un stage de 3 \`a 4 mois (mai -- ao\^ut 2027) : data science, \'econom\'etrie, statistique appliqu\'ee}\\[3pt]
+{\small Marseille \;\textbar\; \lnk{mailto:jorisalverick@gmail.com}{jorisalverick@gmail.com} \;\textbar\; \lnk{https://joris-nitiema.github.io/fr/}{joris-nitiema.github.io} \;\textbar\; \lnk{https://www.linkedin.com/in/joris-alverick-nitiema-67b8a4333/}{LinkedIn} \;\textbar\; \lnk{https://github.com/joris-nitiema}{GitHub}}\par}
+
+\section{Profil}
+Statisticien form\'e \`a l'ISSEA (\'ecole de statistique de la CEMAC), aujourd'hui en Master \`a l'AMSE. Je transforme des donn\'ees d'enqu\^ete et administratives en indicateurs, mod\`eles et tableaux de bord utiles \`a la d\'ecision. Exp\'eriences en institut national de statistique et au minist\`ere des Finances ; \`a l'aise sur toute la cha\^ine, de la collecte \`a la restitution des r\'esultats.
+
+\section{Formation}
+\entry{Aix-Marseille School of Economics (AMSE), Aix-Marseille Universit\'e}{2026 -- en cours}{Master 1 \'Econom\'etrie-Statistiques, enseignement int\'egralement en anglais}{Marseille}
+\vspace{3pt}
+\entry{ISSEA -- Institut Sous-r\'egional de Statistique et d'\'Economie Appliqu\'ee}{2023 -- 2026}{Dipl\^ome d'Analyste Statisticien, sp\'ecialit\'e Data Science}{Yaound\'e, Cameroun}
+\begin{itemize}
+\item Admis sur concours commun (ENSAE Dakar, ENSEA Abidjan, ISSEA).
+\item Class\'e 1\textsuperscript{er}/19 en 3\textsuperscript{e} ann\'ee (16,38/20, mention Tr\`es Bien) ; 3\textsuperscript{e}/28 en 1\textsuperscript{re} et 2\textsuperscript{e} ann\'ees.
+\end{itemize}
+
+\section{Exp\'eriences professionnelles}
+\entry{Institut National de la Statistique (INS) -- Stage de fin d'\'etudes}{Mars -- juin 2026}{D\'epartement des statistiques d\'emographiques, socio-\'economiques et environnementales}{Yaound\'e}
+\begin{itemize}
+\item Mesure de la vuln\'erabilit\'e multidimensionnelle des m\'enages des communes d'accueil de personnes d\'eplac\'ees internes (enqu\^ete PESoP 2024, 2 686 m\'enages).
+\item Indice composite par ACM, typologie par CAH, d\'eterminants par logit ordonn\'e tenant compte du plan de sondage. M\'emoire not\'e 17,20/20.
+\end{itemize}
+\vspace{2pt}
+\entry{Minist\`ere des Finances (MINFI) -- Stage}{Juil. -- sept. 2025}{Division de la Pr\'evision, Cellule du suivi et de l'analyse de l'\'economie r\'eelle}{Yaound\'e}
+\begin{itemize}
+\item Production et exportations de cacao (2015--2025) : d\'ecomposition des s\'eries trimestrielles, tendance, saisonnalit\'e, pr\'evision de court terme.
+\item Tableau de bord d'indicateurs agricoles rempla\c{c}ant des calculs jusque-l\`a refaits \`a la main sous Excel.
+\end{itemize}
+\vspace{2pt}
+\entry{ISSEA -- Contr\^oleur d'enqu\^ete (2025) et enqu\^eteur (2024)}{2024 -- 2025}{Enqu\^etes m\'enages}{Yaound\'e}
+\begin{itemize}
+\item Encadrement d'enqu\^eteurs, contr\^oles de coh\'erence et validation des donn\'ees ; collecte en face \`a face (enqu\^ete m\'enages sur la s\'ecurit\'e urbaine).
+\end{itemize}
+
+\section{Projets}
+\begin{itemize}
+\item \textbf{Tableau de bord de r\'eduction des files d'attente} (R Shiny) : 255 000 op\'erations bancaires r\'eelles, activit\'e par type, agence et jour, et simulateur estimant le temps d'attente gagn\'e en migrant les op\'erations simples vers le digital. \lnk{https://joris-nitiema.github.io/fr/projects/queue-dashboard/}{Voir le projet}
+\item \textbf{EcoTrack Local} (Python, Django ; \'equipe de 3) : application web de suivi et de comparaison des prix par quartier \`a Yaound\'e, avec tableau de bord, carte interactive, d\'etection d'anomalies et export CSV. \lnk{https://joris-nitiema.github.io/fr/projects/ecotrack/}{Voir le projet}
+\item \textbf{Vocab Combo Trainer} (R Shiny) : entra\^inement au vocabulaire anglais--fran\c{c}ais, modes de jeu, suivi de progression, correction assist\'ee par IA. \lnk{https://joris-nitiema.github.io/fr/projects/vocab-trainer/}{Voir le projet}
+\end{itemize}
+
+\section{Comp\'etences}
+\textbf{Statistique et enqu\^etes.} Plans de sondage, pond\'eration, questionnaires, ACP, ACM, CAH, indices composites.\\
+\textbf{\'Econom\'etrie et pr\'evision.} Mod\`ele lin\'eaire, logit/probit, logit ordonn\'e, s\'eries temporelles et pr\'evision.\\
+\textbf{Data science.} Apprentissage supervis\'e, \'evaluation de mod\`eles, NLP, analyse exploratoire.\\
+\textbf{Outils.} R (Shiny, ggplot2), Python (pandas, scikit-learn, Django), SQL, Stata, SPSS, Power BI, Excel/VBA, \LaTeX, CSPro, ODK.\\
+\textbf{Certifications.} IBM : Machine Learning with Python, Python for Data Science, R for Data Science, SQL and Relational Databases ; Coursera : R Programming for Statistics and Data Science.
+
+\vspace{2pt}
+\begin{minipage}[t]{0.52\textwidth}
+\section{Distinctions}
+Prix d'Excellence, ISSEA (premier de la classe) \hfill {\small\color{muted}2026}\\
+Prix d'excellence du Pr\'esident du Faso \hfill {\small\color{muted}2020}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.42\textwidth}
+\section{Langues et int\'er\^ets}
+Fran\c{c}ais (courant), anglais (courant), moor\'e (langue maternelle)\\
+\'Echecs, lecture, football, intelligence artificielle
+\end{minipage}
+\end{document}

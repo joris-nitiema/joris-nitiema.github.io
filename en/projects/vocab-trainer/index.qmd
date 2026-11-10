@@ -1,6 +1,6 @@
 ---
 title: "Vocab Combo Trainer"
-description: "A Shiny app to practise English–French vocabulary, with game modes, progress tracking and AI-assisted correction."
+description: "A Shiny app to practise English–French vocabulary, with three game modes, progress tracking and AI-assisted correction."
 categories: [R, Shiny]
 order: 3
 ---
@@ -9,19 +9,26 @@ order: 3
 
 ```{=html}
 <ul class="pf-facts">
-  <li><span>Goal</span><b>Practise English–French vocabulary</b></li>
+  <li><span>Goal</span><b>Practise English–French vocabulary (B2–C1)</b></li>
   <li><span>Type</span><b>Personal project</b></li>
   <li><span>Tools</span><b>R, Shiny</b></li>
 </ul>
-<p><a class="pf-more pf-more--solid" href="https://joris-nitiema.shinyapps.io/application/">Open the app</a></p>
+<p class="pf-docrow"><a class="pf-more pf-more--solid" href="https://joris-nitiema.shinyapps.io/application/">Open the app</a></p>
 ```
 
 ## Why I built it
 
-I study in English, so I needed a quick way to practise vocabulary every day. I built my own tool.
+My Master's is taught in English. I wanted a quick way to practise advanced vocabulary every day, with my own word lists, so I built the tool I needed.
+
+![Three game modes.](/assets/img/projects/vocab-modes.jpg){.pf-shot}
 
 ## What the app does
 
-- Several game modes.
-- Progress tracking.
-- AI-assisted correction of answers.
+- **Three game modes**: a round with a fixed number of words, a race against the clock, and a streak mode where one mistake ends the game.
+- **Both directions**: English → French and French → English.
+- **Scoring**: one point per correct answer, with a bonus of 25% for every three correct answers in a row.
+- **Tolerant correction**: small spelling mistakes and synonyms are accepted, with the help of an AI model.
+- **Your own lists**: import a PDF or text file of words, and the app can check the whole file.
+- **Progress tracking**: a word counts as mastered after three correct answers, and the app shows the share of the list already covered.
+
+![The game screen.](/assets/img/projects/vocab-game.jpg){.pf-shot}
