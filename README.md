@@ -18,6 +18,9 @@ Each page has the same file name in `en/` and `fr/`, so the EN | FR button opens
 - [x] Award and certificate files (assets/docs)
 - [x] Project and experience detail pages
 - [ ] Check every text on the home page (`en/index.qmd`, `fr/index.qmd`)
+- [ ] Delete the temporary design panel (see below) once the texts are final
+- [ ] Publish EcoTrack's code as a clean public repository (README, screenshots, visitor link, no default secret key), then put the GitHub links back (navbar in both `_quarto.yml`, contact band in both `index.qmd`, header of both CVs). They were removed on 11 Nov 2026 because no public repository was worth showing yet.
+- [ ] Add new projects on real data that interest French companies
 
 ## Temporary design panel
 

@@ -218,7 +218,6 @@ page-layout: custom
     <p>I would be glad to hear about your team and your data. Email is the best way to reach me.</p>
     <a class="pf-btn pf-btn--solid" href="mailto:jorisalverick@gmail.com">Email me</a>
     <a class="pf-btn pf-btn--line" href="https://www.linkedin.com/in/joris-alverick-nitiema-67b8a4333/">LinkedIn</a>
-    <a class="pf-btn pf-btn--line" href="https://github.com/joris-nitiema">GitHub</a>
   </div>
 </section>
 ```
