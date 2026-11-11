@@ -177,10 +177,10 @@ page-layout: custom
         <div class="pf-card__foot"><a class="pf-more" href="/assets/docs/certificates/coursera-data-visualisation-powerpoint.pdf"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg> Voir le certificat</a><a class="pf-doclink" href="https://coursera.org/verify/5KOIAR1PMIQL"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6"/><path d="M20 4 10 14"/><path d="M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg> Vérifier</a></div>
       </li>
       <li class="pf-card pf-cert-card">
-        <div class="pf-cert__top"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg><div><b>Python for Data Science</b><span class="pf-issuer">IBM · Cognitive Class</span></div></div>
+        <div class="pf-cert__top"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13 17 22l-5-3-5 3 1.5-9"/></svg><div><b>Python for Data Science</b><span class="pf-issuer">IBM Skills Network · badge</span></div></div>
         
         <p>Bases de Python pour les données : structures de données, pandas et NumPy.</p>
-        <div class="pf-card__foot"></div>
+        <div class="pf-card__foot"><a class="pf-more" href="/assets/docs/certificates/ibm-python-for-data-science-badge.png"><svg class="pf-ico" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h4"/></svg> Voir le badge</a></div>
       </li>
     </ul>
   </div>
