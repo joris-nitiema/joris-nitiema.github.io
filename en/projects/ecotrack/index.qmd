@@ -13,7 +13,7 @@ order: 2
   <li><span>Team</span><b>3 students, web programming and databases course, ISSEA</b></li>
   <li><span>Tools</span><b>Python, Django</b></li>
 </ul>
-<p class="pf-docrow"><a class="pf-more pf-more--solid" href="https://nitiemajoris.pythonanywhere.com">Open the app</a></p>
+<p class="pf-docrow"><a class="pf-more pf-more--solid" href="https://nitiemajoris.pythonanywhere.com/accounts/visite/">Explore as a visitor</a> <a class="pf-more" href="https://nitiemajoris.pythonanywhere.com">Open the app</a></p>
 ```
 
 ## The question
@@ -39,4 +39,4 @@ Users record their daily expenses: product, price, place and neighbourhood. Each
 
 ## What I learned
 
-This project covers the whole chain of a small statistical system: designing the database, collecting data from users, checking its quality, and presenting the results. The dashboard, map and comparison pages need a free account to open.
+This project covers the whole chain of a small statistical system: designing the database, collecting data from users, checking its quality, and presenting the results. You can explore it without an account: the visitor mode shows the dashboard, map, comparisons and anomalies in read-only mode, with the collectors' names hidden.

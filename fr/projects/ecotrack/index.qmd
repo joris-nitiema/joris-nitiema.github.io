@@ -13,7 +13,7 @@ order: 2
   <li><span>Équipe</span><b>3 étudiants, cours de programmation web et bases de données, ISSEA</b></li>
   <li><span>Outils</span><b>Python, Django</b></li>
 </ul>
-<p class="pf-docrow"><a class="pf-more pf-more--solid" href="https://nitiemajoris.pythonanywhere.com">Ouvrir l'application</a></p>
+<p class="pf-docrow"><a class="pf-more pf-more--solid" href="https://nitiemajoris.pythonanywhere.com/accounts/visite/">Explorer en visiteur</a> <a class="pf-more" href="https://nitiemajoris.pythonanywhere.com">Ouvrir l'application</a></p>
 ```
 
 ## La question
@@ -39,4 +39,4 @@ Les utilisateurs enregistrent leurs dépenses quotidiennes : produit, prix, lieu
 
 ## Ce que j'ai appris
 
-Ce projet couvre toute la chaîne d'un petit système statistique : concevoir la base de données, collecter auprès des utilisateurs, contrôler la qualité, restituer les résultats. Le tableau de bord, la carte et la comparaison nécessitent un compte gratuit.
+Ce projet couvre toute la chaîne d'un petit système statistique : concevoir la base de données, collecter auprès des utilisateurs, contrôler la qualité, restituer les résultats. Vous pouvez l'explorer sans compte : le mode visiteur montre le tableau de bord, la carte, les comparaisons et les anomalies en lecture seule, avec les noms des collecteurs masqués.
